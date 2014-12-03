@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_box_list"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <ImageView
+        android:id="@+id/prize_img"
+        android:layout_width="78dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/bg_prize_box"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/prize_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/prize_img"
+        android:layout_marginLeft="5dp"
+        android:text=""
+        android:textColor="@color/res_cor2"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/commit_exchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/prize_img"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/quiz_btn_selector"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:text="@string/have_get_prize"
+        android:textColor="@color/res_cor1"
+        android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_bg_team_date_up"
+        android:text="@string/team_introduce"
+        android:textColor="@color/res_cor6"
+        android:textSize="@dimen/txt0" />
+
+    <TextView
+        android:id="@+id/txt_intro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_bg_team_up"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/res_cor8"
+        android:textSize="@dimen/txt0" />
+
+</LinearLayout>

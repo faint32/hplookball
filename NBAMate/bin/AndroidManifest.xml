@@ -1,0 +1,749 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hupu.games"
+    android:installLocation="auto"
+    android:versionCode="6201"
+    android:versionName="6.2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="16" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- *******通知相关******* -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission
+        android:name="com.hupu.games.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signatureOrSystem" />
+
+    <uses-permission android:name="com.hupu.games.permission.MIPUSH_RECEIVE" />
+    <!-- sdk的权限 -->
+    <!-- 获取允许是否访问网络权限 -->
+
+- 
+    <!-- 获取 手机里面一下参数 如：imsi、imse、number -->
+- 
+    <!-- 获取网络相关信息 -->
+- 
+
+    <application
+        android:name=".HuPuApp"
+        android:icon="@drawable/icon_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+
+        <!--
+        <activity
+            android:name=".activity.LaunchActivity"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        -->
+        <activity
+            android:name="com.alipay.android.app.sdk.WapPayActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.LaunchActivity"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="kanqiu" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GuideActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.HupuLaunchActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.NickNameActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".activity.HupuHomeActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:theme="@style/StyledIndicators" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hupu.games.activity.NBAGameActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensor"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.SetupActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.AboutActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.FollowTeamActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.WebViewActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+        </activity>
+        <activity
+            android:name=".activity.DiscoveryWebViewActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+        </activity>
+        <activity
+            android:name=".activity.NewsDetailActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <activity
+            android:name=".activity.BasketballActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensor"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.ChatInputActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".activity.ChooseTeamsActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <!-- 球员，裁判，教练的打分页面 -->
+        <activity
+            android:name=".activity.PlayerRatingActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <!-- 用户给球员的打分页面 -->
+        <activity
+            android:name=".activity.UserRateActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".activity.FootballGameActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.PhoneBindActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".pay.AccountActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.HupuOrderActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.PostOrderActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name="com.hupu.games.activity.goldbean.GoldBeanWebViewActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.WallingActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.HupuConfirmOrderActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.BuyOrderActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.MyHonourActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.SingerRankingActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.ContactsActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.BuyVIPActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.BulletinRankActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.QuizListActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.GuessRankActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.UserInfoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.ExchangeListActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.ExchangePrizeActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".casino.MyBoxActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".casino.ShakeBoxActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.MyPrizeListActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.ReplyListActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <activity
+            android:name=".pay.PhoneUnBindActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.PhoneInputActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".activity.UserGoldActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.CoinInfoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.MyQuizListActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.TaskActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.AdWebviewActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.PlayersRatingActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.NBATeamActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.UserWalletActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.UserRechargeActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".activity.MyCaipiaoListActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.FAQActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.HupuVideoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="landscape"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.SoccerEventsActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.SoccerLiveActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.SoccerTeamActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <!-- Don't forgot InitActivity -->
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.NBAPlayerInfoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.FootballPlayerInfoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.FootballCoachInfoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.ShowImgActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.HupuUserBindActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.HupuUserBindTipsActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".activity.UserGoldInfoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        <activity
+            android:name=".pay.HupuUserLoginActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <!-- 积分墙 -->
+        <activity
+            android:name="org.adver.score.sdk.view.WallActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <!-- 辅助Activity  加上方向 防止横竖屏切换listener 丢失 -->
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.tencent.plus.ImageActivity" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent100560807" /> <!-- 100380359 100381104 222222 -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" />
+
+        <service
+            android:name=".service.HuPuGamemateService"
+            android:exported="true"
+            android:process=":HuPuGamemateService"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </service>
+
+        <receiver android:name=".HuPuApp" >
+            <intent-filter>
+                <action android:name="NOTIFY_QUIT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 此乃umeng相关 -->
+        <!--
+        正式ID  
+        baidu
+		nduoa
+		taobao  
+		wandoujia
+        -->
+
+
+        <!-- milestone -->
+        <!-- <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5099bd95527015351b0000f4" /> -->
+        
+             <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="51ef9ea456240b989e07effd" />
+       
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="umengupdate" />
+
+        <activity android:name="com.umeng.fb.ConversationActivity" />
+        <activity android:name="com.umeng.fb.ContactActivity" />
+
+        <!-- DACE 统计部分 -->
+        <!--
+             <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="78de4faa3e2f29d2d9972999842c41ca" />
+        <meta-data
+            android:name="HUTJ_APPKEY"
+            android:value="b9798f95a7394de0" >
+        </meta-data>
+
+        <service
+            android:name="com.hupu.statistics.service.HupuMountService"
+            android:exported="true"
+            android:process=":remote" >
+        </service>
+        -->
+
+
+        <!-- 分享编辑页 -->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        
+        <!-- 虎扑币相关 -->
+       <activity
+            android:name="com.hupu.games.hupudollor.activity.UserHupuDollorInfoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+                <activity
+            android:name="com.hupu.games.hupudollor.activity.HupuDollorOrderActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+            <activity
+            android:name="com.hupu.games.hupudollor.activity.HupuDollorLogActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+          <activity
+            android:name="com.hupu.games.hupudollor.activity.HupuDollorPostOrderActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.hupu.games.activity.LaunchActivity" >
+        </activity>
+        
+
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!-- 小米推送 -->
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled="true"
+            android:process=":pushservice" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled="true" />
+        <!-- 注：此service必须在2.2.5版本以后（包括2.2.5版本）加入 -->
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported="false"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.hupu.games.service.XiaoMiReceiver"
+            android:exported="true" >
+
+            <!-- 这里com.xiaomi.mipushdemo.DemoMessageRreceiver改成app中定义的完整类名 -->
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        虎扑推送 
+        <service
+            android:name="com.hupu.push.HupuPushService"
+            android:exported="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.hupu.push.HupuPushService" />
+            </intent-filter>
+        </service>        
+        -->
+        <!-- 默认必须注册此广播，此广播是用来启动推送服务和启动定时闹钟唤醒服务的。 -->
+
+
+        <!--
+        <receiver
+            android:name="com.hupu.push.HupuPushRecevier"
+            android:exported="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.hupu.push.receiver" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        -->
+        <!-- push.HupuRecevier自己定义实现，action必须为com.hupu.push.publish -->
+        <!--
+        <receiver
+            android:name=".service.HupuRecevier"
+            android:exported="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.hupu.push.publish" />
+            </intent-filter>
+        </receiver>
+        -->
+
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 球员的打分列表页 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/setting_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/txt_exchange_prize" />
+        
+        <Button
+            android:id="@+id/btn_my_prize"
+            style="@style/btn_right"
+            android:text="@string/title_my_prize"
+            android:textColor="@color/res_cor1" />
+    </RelativeLayout>
+    
+    <!-- <ListView
+        android:id="@+id/list_exchange"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:cacheColorHint="#00000000"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="#ffaaaaaa"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="@color/transform"
+        android:visibility="gone"
+        android:scrollbars="none"/> -->
+    
+    
+    <GridView 
+        android:id="@+id/list_exchange"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:listSelector="@color/transform"
+        android:padding="10dp"
+        />
+
+</LinearLayout>

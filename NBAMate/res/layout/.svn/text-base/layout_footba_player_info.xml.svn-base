@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/static_blank" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView 
+            android:id="@+id/txt_title"
+            style="@style/txt_title" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/head_scroll"
+        android:layout_below="@+id/layout_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="5dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/res_cor1"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/player_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:maxWidth="83dp"
+                    android:maxHeight="60dp"
+                    android:gravity="center"/>
+
+                <com.hupu.games.view.HupuSingleLineTextView
+                    android:id="@+id/player_name_zh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/player_header"
+                    android:textColor="@color/res_cor2"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:id="@+id/player_name_en"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/player_name_zh"
+                    android:layout_marginLeft="7dp"
+                    android:layout_toRightOf="@+id/player_header"
+                    android:textColor="@color/res_cor8"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/player_num_team"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/player_name_en"
+                    android:layout_marginLeft="7dp"
+                    android:layout_toRightOf="@+id/player_header"
+                    android:textColor="@color/res_cor8"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/res_cor1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/res_cor4"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/age_info"
+                            style="@style/txt_age" />
+
+                        <TextView
+                            android:id="@+id/age_title"
+                            style="@style/txt_jieshao"
+                            android:text="@string/player_age" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="1px"
+                        android:layout_height="44dp"
+                        android:background="@color/res_cor8" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/height_info"
+                            style="@style/txt_age" />
+
+                        <TextView
+                            android:id="@+id/height_title"
+                            style="@style/txt_jieshao"
+                            android:text="@string/player_height" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="1px"
+                        android:layout_height="44dp"
+                        android:background="@color/res_cor8" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/weight_info"
+                            style="@style/txt_age" />
+
+                        <TextView
+                            android:id="@+id/weight_title"
+                            style="@style/txt_jieshao"
+                            android:text="@string/player_weight" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout_player_birth"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/data_info"
+                        android:lineSpacingExtra="6dp"
+                        style="@style/txt_football_player_info" />
+                </LinearLayout>
+            </LinearLayout>
+
+           <!--  <GridView
+                android:id="@+id/grid_data_info"
+                android:layout_width="fill_parent"
+                android:layout_height="155dp"
+                android:gravity="center"
+                android:horizontalSpacing="10dp"
+                android:listSelector="@color/transform"
+                android:numColumns="3"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp" /> -->
+            
+            <LinearLayout 
+                android:id="@+id/data_info_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                
+                >
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_intro"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                android:layout_marginTop="5dp"
+                android:background="@color/res_cor1"
+                android:visibility="gone"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/res_cor4"
+                    android:gravity="center_vertical|left"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="9dp"
+                    android:text="@string/player_introduce"
+                    android:textColor="@color/res_cor6"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView 
+                    android:id="@+id/player_intro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/res_cor8"
+                    android:textSize="14sp"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/probar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

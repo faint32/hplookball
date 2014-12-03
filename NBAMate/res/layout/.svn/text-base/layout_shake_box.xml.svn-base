@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/res_cor2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar"
+        android:layout_width="fill_parent" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/my_box" />
+
+        <TextView
+            android:id="@+id/txt_num"
+            style="@style/btn_right"
+            android:layout_marginRight="8dp"
+            android:background="@color/transform"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/res_cor1"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:layout_below="@id/layout_title_bar"
+        android:background="@drawable/bg_box_gold" />
+
+    <TextView
+        android:id="@+id/txt_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/res_cor10"
+        android:textSize="18sp" 
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"/>
+
+</RelativeLayout>

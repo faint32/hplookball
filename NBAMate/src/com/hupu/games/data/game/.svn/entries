@@ -1,0 +1,40 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/src/com/hupu/games/data/game
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-11-21T12:59:56.853233Z
+1600
+dongshuming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+base
+dir
+
+basketball
+dir
+
+football
+dir
+
+quiz
+dir
+

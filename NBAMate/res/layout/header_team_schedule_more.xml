@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_full_schedule_selector"
+    android:drawableRight="@drawable/arrow_program"
+    android:gravity="left|center_vertical"
+    android:padding="6dp"
+    android:textColor="@color/res_cor8"
+    android:textSize="@dimen/txt0" />

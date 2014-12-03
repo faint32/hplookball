@@ -1,0 +1,52 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/src/com/hupu/games/hupudollor/dialog
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-11-19T06:30:40.640835Z
+1556
+songzhenhua
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+PayHupuDollorDialog.java
+file
+
+
+
+
+2014-12-02T10:34:51.000000Z
+8a0b8bc6dd0af1d195502c8f00b5a991
+2014-11-10T09:55:05.278988Z
+1471
+songzhenhua
+
+WalletPayHupuDollorDialog.java
+file
+
+
+
+
+2014-12-02T10:34:51.000000Z
+dbe255e45ac82f8b26a4dd0c1131f8c5
+2014-11-19T06:30:40.640835Z
+1556
+songzhenhua
+

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_news_item"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/STR_TITLE_NBA_NEWS" />
+
+        <!-- <Button
+            android:id="@+id/btn_jump"
+            style="@style/btn_right"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp" /> -->
+        <ImageButton
+                android:id="@+id/btn_share"
+                style="@style/btn_right"
+                android:background="@drawable/btn_jump_selector" />
+    </RelativeLayout>
+
+    <com.hupu.games.view.CustomScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/layout_title_bar"
+        android:layout_above="@+id/to_reply_img"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/news_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="10dp"
+			        android:paddingRight="10dp"
+			        android:paddingTop="10dp"
+			        android:paddingBottom="5dp"
+                    android:textColor="@color/res_cor2"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/news_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/news_title"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp" >
+
+                    <TextView
+                        android:id="@+id/news_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/res_cor8"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/from_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="来自"
+                        android:textColor="@color/res_cor8"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/news_origin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/res_cor8"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/news_info"
+                    android:layout_marginTop="10dp"
+                    android:visibility="invisible"
+                    android:background="@drawable/bg_line"/>
+
+                <!-- android:layout_height="193dp" -->
+                <ImageView
+                    android:id="@+id/news_img"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/line"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bg_newsdetail_no_pic"
+                    android:visibility="invisible"
+                    android:scaleType="centerInside" />
+
+                <com.hupu.games.view.HupuWebView
+                    android:id="@+id/news_detail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:descendantFocusability="blocksDescendants"
+                    android:layout_below="@+id/news_img" />
+                
+                <LinearLayout 
+                    android:id="@+id/news_detail_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/news_detail"
+                    android:layout_alignBottom="@+id/news_detail"
+                    android:orientation="horizontal"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/news_hot_reply"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/news_detail"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/hot_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_line" />
+
+                    <LinearLayout
+                        android:id="@+id/hot_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/icon_light_down" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/light_replys"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/reply_group_color"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.hupu.games.view.CustomScrollView>
+    <ImageView 
+        android:id="@+id/commit_layout_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/layout_title_bar"
+        android:background="@color/exciting_color"
+        android:visibility="gone"
+        />
+
+    <ProgressBar
+        android:id="@+id/probar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <RelativeLayout
+        android:id="@+id/commit_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/comment_bg"
+        android:visibility="gone"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/commit_reply_layout"
+            android:layout_width="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/commit_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/un_send_btn" />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_replys_txt"
+                android:layout_centerInParent="true"
+                android:textColor="@color/res_cor2"
+                android:textSize="18sp"
+                />
+            
+            <ImageView
+                android:id="@+id/close_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/btn_close_selector" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/reply_text_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/commit_reply_layout"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/reply_box"
+            android:gravity="top"
+            android:hint="@string/reply_hint_text"
+            android:lines="3"
+            android:maxLines="5"
+            android:padding="5dp" />
+    </RelativeLayout>
+
+    
+         <ImageView 
+         android:id="@+id/to_reply_img"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:background="@drawable/comment_img"
+         android:layout_toLeftOf="@+id/to_jump_img"
+        />
+         
+         <ImageView 
+             android:id="@+id/to_jump_img"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/comment_foot_icon"
+             android:layout_toLeftOf="@+id/reply_num"
+             android:layout_alignParentBottom="true"
+             />
+         <TextView 
+             android:id="@+id/reply_num"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentBottom="true"
+             android:textColor="@color/res_cor8"
+             android:layout_alignTop="@+id/to_jump_img"
+             android:gravity="center"
+             android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"
+             />
+   
+
+</RelativeLayout>

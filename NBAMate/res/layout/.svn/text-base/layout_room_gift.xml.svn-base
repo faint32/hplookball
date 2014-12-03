@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_sendgift"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlayout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/gift_total_1"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_toLeftOf="@+id/btn_gift_green" />
+
+        <TextView
+            android:id="@+id/btn_gift_green"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_gift_green_selector"
+            android:gravity="center"
+            android:text="我勒\n个去"
+            android:textColor="@color/res_cor1"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlayout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/gift_total_2"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_toLeftOf="@+id/btn_orange_green" />
+
+        <TextView
+            android:id="@+id/btn_orange_green"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_gift_orange_selector"
+            android:gravity="center"
+            android:text="我刺\n亡已"
+            android:textColor="@color/res_cor1"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+</LinearLayout>

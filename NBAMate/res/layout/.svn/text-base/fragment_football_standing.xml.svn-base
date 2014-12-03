@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/static_blank"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/dark_gray"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/btn_standings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_rank_type_selector"
+                android:textColor="@color/txt_status"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_goals"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_rank_type_selector"
+                android:textColor="@color/txt_status"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_assists"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_rank_type_selector"
+                android:textColor="@color/txt_status"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!--
+         <LinearLayout
+        android:id="@+id/layout_top_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/football_rank_title_bg"
+        android:gravity="center_vertical" />
+        -->
+
+        <LinearLayout
+            android:id="@+id/layout_standings_top_title"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="18"
+                android:gravity="left"
+                android:text="@string/football_rank" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="22"
+                android:gravity="left"
+                android:text="@string/football_team" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="10"
+                android:gravity="left"
+                android:text="@string/football_game_played" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="6"
+                android:text="@string/football_wins" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="6"
+                android:text="@string/football_tie" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="6"
+                android:text="@string/football_losses" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="17"
+                android:text="@string/football_scored_lost" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="10"
+                android:gravity="right"
+                android:text="@string/football_points" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_assists_top_title"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/football_rank" />
+
+            <TextView
+                android:id="@+id/txt_player"
+                style="@style/txt_rank"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/football_player" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="1"
+                android:text="@string/football_team" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/football_assist" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_goals_top_title"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/football_rank" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/football_player" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="1"
+                android:text="@string/football_team" />
+
+            <TextView
+                style="@style/txt_rank"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/football_scored" />
+        </LinearLayout>
+
+        
+
+        <ListView
+            android:id="@+id/list_standings"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="1px"
+            android:divider="@color/list_divider"
+            android:scrollbars="none" />
+        
+        <com.hupu.games.view.HupuWebView
+	        android:id="@+id/rank_webview"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:visibility="gone"
+        />
+        
+    </LinearLayout>
+    
+    <ProgressBar 
+        android:id="@+id/load_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

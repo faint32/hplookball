@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 球员的打分列表页 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/static_blank"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back"/>
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/quiz_list_tiele" />
+
+        <RelativeLayout
+            android:id="@+id/gold_num"
+            style="@style/layout_right" >
+
+            <ImageView
+                android:id="@+id/gold_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_gold" />
+
+            <TextView
+                android:id="@+id/coin_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/gold_img"
+                android:text="..."
+                android:textColor="@color/res_cor1"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/box_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/coin_num"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:src="@drawable/icon_box_gold_s" />
+
+            <TextView
+                android:id="@+id/box_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/box_img"
+                android:text="..."
+                android:visibility="gone"
+                android:textColor="@color/res_cor1"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/layout_guess_mark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/layout_title_bar"
+        >
+        
+        <TextView 
+            android:id="@+id/guess_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/res_cor1"
+            android:textSize="18sp"
+            />
+        
+    </RelativeLayout>
+
+    <!--
+    <RelativeLayout
+        android:id="@+id/user_quiz_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="10dp"
+        android:background="@drawable/top_box_bg">
+   
+
+    <TextView
+        android:id="@+id/user_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/arrow"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/arrow" />
+     </RelativeLayout>
+    -->
+
+    <com.hupu.games.view.PinnedHeaderXListView
+        android:id="@+id/list_player"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:layout_below="@+id/layout_guess_mark"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="@null"
+        android:dividerHeight="9dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="@color/transform"
+        android:scrollbars="none" />
+
+<!--     <TextView
+        android:id="@+id/txt_nodata"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:shadowColor="#ff3d3d3d"
+        android:shadowDy="3"
+        android:shadowRadius="1.6"
+        android:text="@string/no_data_hint"
+        android:textColor="#ff171717"
+        android:textSize="18sp"
+        android:visibility="gone" /> -->
+    
+    <TextView 
+        android:id="@+id/img_no_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"
+        android:textColor="@color/res_cor8"
+        android:text="@string/no_my_quiz"
+        android:visibility="gone"/>
+
+</RelativeLayout>

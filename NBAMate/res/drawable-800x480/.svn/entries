@@ -1,0 +1,54 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/res/drawable-800x480
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-06-05T13:10:59.212721Z
+1073
+panyongjun
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+ic_overtime.png
+file
+
+
+
+
+2014-12-02T10:35:50.000000Z
+b44d49002f530aee08a11b3582937205
+2014-06-05T13:10:59.212721Z
+1073
+panyongjun
+has-props
+
+ic_penalty.png
+file
+
+
+
+
+2014-12-02T10:35:50.000000Z
+db2d47e4c105f5b8d069524e0c1e273a
+2014-06-05T13:10:59.212721Z
+1073
+panyongjun
+has-props
+

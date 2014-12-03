@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_play_list" >
+
+<!--     <RelativeLayout 
+        android:id="@+id/anchor_layout"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" > -->
+
+        <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/res_cor1"
+        android:layout_gravity="center_vertical"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/view_split"
+        android:layout_width="2dp"
+        android:layout_height="fill_parent" >
+    </ImageView>
+    <!--
+    <TextView
+        android:id="@+id/txt_team"
+        android:layout_width="58dp"
+        android:layout_height="fill_parent"
+        android:background="@color/dark_gray"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:textSize="15sp" 
+        android:singleLine="true"
+        android:ellipsize="end"/>-->
+	
+    <TextView
+        android:id="@+id/txt_team"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@color/dark_gray"
+        android:ellipsize="end"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColor="@color/res_cor1"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        
+        android:orientation="vertical"
+        android:padding="4dp" >
+
+        <TextView
+            android:id="@+id/txt_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txt_status"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/res_cor1"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:src="@drawable/live_default"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_casino"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/quiz_btn_selector"
+                android:textColor="@color/res_cor1"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/quiz_btn_selector"
+                android:textColor="@color/res_cor1"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_odds"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/txt_odds1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_yes"
+                    android:textColor="@color/res_cor1"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/txt_odds2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_play_no"
+                    android:textColor="@color/res_cor1"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_casino_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/txt_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icon_live_time"
+                android:textColor="@color/res_cor3"
+                android:textSize="16sp" 
+                android:drawablePadding="4dp"/>
+
+            <TextView
+                android:id="@+id/txt_people"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icon_live_man"
+                android:textColor="@color/res_cor3"
+                android:textSize="16sp" 
+                android:drawablePadding="4dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

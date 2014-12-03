@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_news"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <ImageView
+        android:id="@+id/prize_img"
+        android:layout_width="78dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/no_news_pic"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/prize_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/prize_img"
+        android:text="乔丹签名球衣"
+        android:textColor="@color/res_cor2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_coin_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prize_name"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/prize_img"
+        android:lineSpacingExtra="1dp"
+        android:singleLine="true"
+        android:text="价值："
+        android:textColor="#ffaaaaaa"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/txt_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prize_name"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/txt_coin_left"
+        android:lineSpacingExtra="1dp"
+        android:text="15000"
+        android:textColor="@color/res_cor3"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prize_name"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/txt_coin"
+        android:background="@drawable/icon_gold" />
+
+    <TextView
+        android:id="@+id/txt_remain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_coin"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/prize_img"
+        android:lineSpacingExtra="1dp"
+        android:singleLine="true"
+        android:text="剩余：15件"
+        android:textColor="#ffaaaaaa"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/commit_exchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/prize_img"
+        android:background="@drawable/quiz_btn_selector"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:text="我要兑换"
+        android:textColor="@color/res_cor1"
+        android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/table_score"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/shape_red"
+        android:stretchColumns="*"
+        android:visibility="gone" >
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/table_score"
+        android:background="@color/res_cor2">
+
+        <com.hupu.games.view.PinnedHeaderListView
+            android:id="@+id/list_players"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+          
+            android:divider="@drawable/divider"
+            android:listSelector="@null"
+            android:visibility="gone" 
+            android:layout_marginTop="8dp" />
+        
+    <ImageView
+            android:id="@+id/shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shadow_right" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/probar_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

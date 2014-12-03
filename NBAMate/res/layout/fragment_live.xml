@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.hupu.games.view.XListView
+        android:id="@+id/list_live"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fastScrollEnabled="true"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="@null" />
+
+
+    <ProgressBar
+        android:id="@+id/probar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/txt_no_data"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/dark_gray"
+        android:gravity="center"
+        android:text="@string/not_start"
+        android:textColor="@color/txt_status"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/webview_no_data"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>

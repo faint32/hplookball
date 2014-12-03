@@ -1,0 +1,164 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+-keepclassmembers class  com.hupu.games.pay.BuyVIPActivity {
+   public *;
+}
+
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+
+# Optimizations: If you don't want to optimize, use the
+# proguard-android.txt configuration file instead of this one, which
+# turns off the optimization flags.  Adding optimization introduces
+# certain risks, since for example not all optimizations performed by
+# ProGuard works on all versions of Dalvik.  The following flags turn
+# off various optimizations known to have issues, but the list may not
+# be complete or up to date. (The "arithmetic" optimization can be
+# used if you are only targeting Android 2.0 or later.)  Make sure you
+# test thoroughly if you go this route.
+-optimizations !code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*
+-optimizationpasses 5
+-allowaccessmodification
+-dontpreverify
+
+# The remainder of this file is identical to the non-optimized version
+# of the Proguard configuration file (except that the other file has
+# flags to turn off optimization).
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+-keepattributes *Annotation*
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+-dontwarn com.actionbarsherlock.**
+-keep class com.actionbarsherlock.** { *;}
+-dontwarn com.hupu.push.**
+-keep class com.hupu.push.** { *;}
+-dontwarn com.bx.pay.**
+-keep class com.bx.pay.** { *;}
+-dontwarn com.alipay.android.app.**
+-keep class com.alipay.android.app.** { *;}
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# keep setters in Views so that animations can still work.
+# see http://proguard.sourceforge.net/manual/examples.html#beans
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# umeng
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+
+
+-keep public class com.hupu.games.R$*{
+    public static final int *;
+}
+
+-keep public class com.umeng.fb.ui.ThreadView {
+}
+
+-keep public class com.hupu.games.pay.BuyVIPActivity {
+}
+# tencent
+-keep class * extends android.app.Dialog
+-keep class com.tencent.** { *;}
+
+
+# The support library contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version.  We know about them, and they are safe.
+-dontwarn android.support.**
+
+-dontshrink
+-dontoptimize
+-dontwarn com.google.android.maps.**
+-dontwarn android.webkit.WebView
+-dontwarn com.umeng.**
+-dontwarn com.tencent.weibo.sdk.**
+-dontwarn com.facebook.**
+
+#小米push 的忽略混淆部分
+-dontwarn com.xiaomi.**
+-dontwarn a.a.**
+
+-libraryjars libs/SocialSDK_QQZone_2.jar
+
+-keep enum com.facebook.**
+-keepattributes Exceptions,InnerClasses,Signature
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+
+-keep public interface com.tencent.**
+-keep public interface com.umeng.socialize.**
+-keep public interface com.umeng.socialize.sensor.**
+-keep public interface com.umeng.scrshot.**
+
+-keep public class com.umeng.socialize.* {*;}
+-keep public class javax.**
+-keep public class android.webkit.**
+
+-keep class com.umeng.scrshot.**
+-keep public class com.tencent.** {*;}
+-keep class com.umeng.socialize.sensor.**
+
+-keep class com.tencent.mm.sdk.modelmsg.WXMediaMessage {*;}
+
+-keep class com.tencent.mm.sdk.modelmsg.** implements com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject {*;}
+
+-keep public class [your_pkg].R$*{
+    public static final int *;
+}
+-keep public class * extends android.content.BroadcastReceiver
+-keep class com.hupu.games.service.XiaoMiReceiver {*;}
+
+-keep public class com.xiaomi.**
+-keep public class * extends com.xiaomi.mipush.sdk.PushMessageReceiver
+
+#积分墙 忽略
+-keep class org.adver.score.**{*;}
+#MAA 加速 忽略
+-keep class com.mato.** {*; }
+-dontwarn com.mato.**
+-keepattributes Exceptions, Signature, InnerClasses, EnclosingMethod

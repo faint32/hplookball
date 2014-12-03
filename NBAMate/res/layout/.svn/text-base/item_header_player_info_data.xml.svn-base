@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_block"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/res_cor4"
+        android:gravity="center_vertical|left"
+        android:paddingBottom="5dp"
+        android:paddingLeft="9dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/res_cor6"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.hupu.games.view.HupuGridView
+        android:id="@+id/grid_data_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/res_cor4"
+        android:horizontalSpacing="1dp"
+        android:listSelector="#00000000"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/res_cor4" >
+    </View>
+
+</LinearLayout>

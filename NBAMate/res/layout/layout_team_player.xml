@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_portrait"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/static_blank"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title" />
+
+        <Button
+            android:id="@+id/btn_follow"
+            style="@style/btn_right1"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/bg_bottom"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_team"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             android:background="@drawable/bg_bottom_hover"
+            android:src="@drawable/btn_team_down" />
+
+        <ImageButton
+            android:id="@+id/btn_player"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             android:background="@color/transform"
+            android:src="@drawable/btn_player_up"/>
+
+        <ImageButton
+            android:id="@+id/btn_data"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             android:background="@color/transform"
+            android:src="@drawable/btn_data_up"/>
+    </LinearLayout>
+
+</LinearLayout>

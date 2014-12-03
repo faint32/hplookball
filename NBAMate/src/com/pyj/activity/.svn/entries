@@ -1,0 +1,41 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/src/com/pyj/activity
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-11-17T09:34:30.238537Z
+1544
+dongshuming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+BaseActivity.java
+file
+
+
+
+
+2014-12-02T10:35:04.000000Z
+2937ab7909044f31ec4a1055639fabb0
+2014-11-17T09:34:30.238537Z
+1544
+dongshuming
+has-props
+

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/callback
+END
+ListenCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/callback/ListenCallback.java
+END
+CompletedCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/callback/CompletedCallback.java
+END
+ConnectCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/callback/ConnectCallback.java
+END
+ResultCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/callback/ResultCallback.java
+END
+ContinuationCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/callback/ContinuationCallback.java
+END
+DataCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/callback/DataCallback.java
+END
+WritableCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/callback/WritableCallback.java
+END

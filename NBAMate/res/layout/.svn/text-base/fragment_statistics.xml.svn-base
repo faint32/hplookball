@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/table_score"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:visibility="gone" >
+    </TableLayout>
+
+    <com.hupu.games.view.PinnedHeaderXListView
+        android:id="@+id/list_players"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/table_score"
+        android:background="@color/res_cor2"
+        android:dividerHeight="1dp"
+        android:listSelector="@null"
+        android:visibility="gone" 
+        android:descendantFocusability="blocksDescendants"/>
+
+    <ProgressBar
+        android:id="@+id/probar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/bin/res
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-01-16T09:52:15.666984Z
+790
+panyongjun
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+

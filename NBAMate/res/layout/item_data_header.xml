@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list_player_data_header"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_name"
+            style="@style/txt_statistics_data"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:drawableRight="@drawable/shape_split_line2"/>
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:id="@+id/line"
+            android:layout_width="118dp"
+            android:layout_height="3dp" />
+    </RelativeLayout>
+
+    <com.hupu.games.view.InterceptScrollContainer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false" >
+
+        <com.hupu.games.view.HScrollView
+            android:id="@+id/hscrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/layout_containter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </com.hupu.games.view.HScrollView>
+    </com.hupu.games.view.InterceptScrollContainer>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/src/com/sina/sso
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-04-23T08:22:50.948349Z
+954
+panyongjun
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+RemoteSSO.aidl
+file
+
+
+
+
+2014-12-02T10:35:05.000000Z
+748c582104b36769b7e9dd247c7fbd84
+2014-04-23T08:22:50.948349Z
+954
+panyongjun
+

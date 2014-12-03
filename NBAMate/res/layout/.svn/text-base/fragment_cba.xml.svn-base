@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res/com.hupu.games"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_index"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_home_date" >
+
+        <Button
+            android:id="@+id/btn_pre"
+            style="@style/txt_game_schedule_left">"
+        </Button>
+
+        <TextView
+            android:id="@+id/txt_round"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/res_cor1"
+            android:textSize="20sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_next"
+             style="@style/txt_game_schedule_right">
+        </Button>
+    </LinearLayout>
+
+    <com.hupu.games.view.PinnedHeaderListView
+        android:id="@+id/list_cba_games"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/layout_1"
+        android:cacheColorHint="#00000000"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="@color/transform"
+        android:dividerHeight="0dp"
+        android:listSelector="@color/transform" />
+
+</RelativeLayout>

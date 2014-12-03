@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/WL-APP-Games_Android/!svn/ver/1661/trunk
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/WL-APP-Games_Android/!svn/ver/1641/trunk/AndroidManifest.xml
+END
+alipay_lib.rar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/WL-APP-Games_Android/!svn/ver/688/trunk/alipay_lib.rar
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/WL-APP-Games_Android/!svn/ver/1478/trunk/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/WL-APP-Games_Android/!svn/ver/3/trunk/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/WL-APP-Games_Android/!svn/ver/596/trunk/build.xml
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/WL-APP-Games_Android/!svn/ver/1410/trunk/proguard-project.txt
+END
+game_mate_hupu.zip
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/WL-APP-Games_Android/!svn/ver/596/trunk/game_mate_hupu.zip
+END
+lint.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/WL-APP-Games_Android/!svn/ver/596/trunk/lint.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/WL-APP-Games_Android/!svn/ver/1478/trunk/project.properties
+END

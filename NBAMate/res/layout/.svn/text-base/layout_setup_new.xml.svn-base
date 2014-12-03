@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/title_setup" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/setting_bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_bind_list_bg"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <!-- 我的账户 -->
+                
+                <LinearLayout
+                    android:id="@+id/layout_account"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/my_userinfo"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txt_nick_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:textColor="@color/setting_font_color"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/icon_arrow" />
+                </LinearLayout>
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light_gray" />
+          <!--       我的昵称
+
+                <LinearLayout
+                    android:id="@+id/layout_account"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    android:visibility="gone"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/title_my_nick_name"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/icon_arrow" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/light_gray" /> -->
+
+                <!-- nba关注 -->
+
+                <LinearLayout
+                    android:id="@+id/layout_follow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/title_my_follow"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/icon_arrow" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 我 的 荣誉 -->
+
+            <LinearLayout
+                android:id="@+id/layout_honor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_honor"
+                    android:textColor="@color/setting_font_color"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/layout_honor_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </LinearLayout>
+            
+            
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_user_list_bg"
+                android:orientation="vertical" >
+
+                <!-- 通知开关 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/bg_user_list_item_bg"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="6dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="推送通知"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="20sp" />
+
+                    <ToggleButton
+                        android:id="@+id/toggle_notify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/toggle_selector"
+                        android:textOff="@null"
+                        android:textOn="@null" >
+                    </ToggleButton>
+                </LinearLayout>
+
+                <!-- 2G/3G开关 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/bg_user_list_item_bg"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="6dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/moble_no_pic"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="20sp" />
+
+                    <ToggleButton
+                        android:id="@+id/toggle_no_pic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/toggle_selector"
+                        android:checked="true"
+                        android:textOff="@null"
+                        android:textOn="@null" >
+                    </ToggleButton>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lay_clean"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/bg_user_list_item_bg"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/title_clean"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txt_del"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="15dp"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/feedback_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_bind_list_bg"
+                android:orientation="vertical" >
+
+                 <!-- 友盟交换 -->
+
+                <TextView
+                    android:id="@+id/layout_contacts"
+                    style="@style/txt_item_setup"
+                    android:text="@string/title_contacts" />
+                <!-- 反馈 -->
+
+                <TextView
+                    android:id="@+id/layout_feedback"
+                    style="@style/txt_item_setup"
+                    android:background="@drawable/bg_user_list_bg"
+                    android:text="@string/feedback" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_user_list_bg"
+                android:orientation="vertical" >
+
+                <!-- 友盟交换 -->
+
+                <!-- <TextView
+                    android:id="@+id/layout_exchange"
+                    style="@style/txt_item_setup"
+                    android:background="@drawable/bg_user_list_item_bg"
+                    android:text="@string/exchange" /> -->
+
+
+                <!-- 给我们打分 -->
+
+                <TextView
+                    android:id="@+id/layout_reward"
+                    style="@style/txt_item_setup"
+                    android:background="@drawable/bg_user_list_item_bg"
+                    android:text="@string/reward" />
+
+
+                <!-- 版本检测 -->
+
+                <TextView
+                    android:id="@+id/layout_check_version"
+                    style="@style/txt_item_setup"
+                    android:background="@drawable/bg_user_list_item_bg"
+                    android:text="@string/check_version" />
+
+                <!-- 版本号 -->
+
+                <LinearLayout
+                      android:id="@+id/layout_about"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_user_list_item_bg"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="关于我们"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txt_version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="v4.4.0"
+                        android:textColor="#ff516491"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+      <!--           <TextView
+                    android:id="@+id/layout_about"
+                    style="@style/txt_item_setup"
+                    android:text="@string/about"
+                    android:visibility="gone" /> -->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reply_title_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/bg_news_item"
+    android:paddingTop="3dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/reply_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/icon_new_reply" />
+
+    <TextView
+        android:id="@+id/reply_light_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/light_replys"
+        android:textColor="@color/reply_group_color"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp" />
+
+</LinearLayout>

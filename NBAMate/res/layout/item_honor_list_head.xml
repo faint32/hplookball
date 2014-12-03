@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_sinhonour_top"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:background="@drawable/fb_rank_title_repeat_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp" >
+
+        <TextView
+            android:id="@+id/txt_sinhonour_name"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/arrange_name"
+            android:textColor="@color/res_cor1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_sinhonour_nick"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/nick_name"
+            android:textColor="@color/res_cor1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_sinhonour_num"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/honour_num"
+            android:textColor="@color/res_cor1"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

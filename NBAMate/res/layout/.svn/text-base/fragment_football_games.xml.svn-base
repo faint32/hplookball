@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res/com.hupu.games"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_home_date" >
+
+        <Button
+            android:id="@+id/btn_pre"
+            style="@style/txt_game_schedule_left">
+        </Button>
+
+        <TextView
+            android:id="@+id/txt_round"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/res_cor1"
+            android:textSize="20sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/txt_game_schedule_right">
+        </Button>
+    </LinearLayout>
+
+    <com.hupu.games.view.PinnedHeaderXListView
+        android:id="@+id/list_games"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/layout_1"
+        android:descendantFocusability="blocksDescendants"
+		android:divider="@color/transform"
+        android:dividerHeight="0dp"
+        android:listSelector="@color/transform"
+        android:cacheColorHint="#00000000"/>
+ <ProgressBar
+        android:id="@+id/probar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

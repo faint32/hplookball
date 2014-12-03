@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 球员的打分列表页 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="90dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_prize_item_bg"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="90dp"
+        android:layout_gravity="center_horizontal"
+    	android:layout_height="wrap_content">
+    	<ImageView
+        android:id="@+id/prize_img"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg_mall_no_pic_s"/>
+    	<ImageView 
+    	    android:id="@+id/prize_status"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:background="@drawable/icon_myaccount_new"
+    	    />
+    </RelativeLayout>
+    
+    <TextView 
+        android:id="@+id/prize_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/res_cor6"
+        android:textSize="12sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+    
+    <TextView 
+        android:id="@+id/coin_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/res_cor8"
+        android:textSize="10sp"
+        android:layout_marginBottom="3dp"
+        />
+    
+    
+    <TextView 
+        android:id="@+id/join_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/res_cor8"
+        android:textSize="10sp"
+        android:layout_marginBottom="3dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

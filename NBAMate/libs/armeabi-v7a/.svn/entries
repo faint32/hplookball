@@ -1,0 +1,41 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/libs/armeabi-v7a
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-10-23T01:51:37.119689Z
+1410
+dongshuming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+libwsld.so
+file
+
+
+
+
+2014-12-02T10:36:03.000000Z
+e72eafe9590e79c422d4f9ac07d04750
+2014-10-23T01:51:37.119689Z
+1410
+dongshuming
+has-props
+

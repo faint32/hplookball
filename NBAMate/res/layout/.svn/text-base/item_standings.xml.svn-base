@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:background="@drawable/bg_archer_selector"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/txt_rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/res_cor1"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/team_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_margin="3dp" />
+
+        <TextView
+            android:id="@+id/txt_team"
+            style="@style/txt_standings_1"
+            android:layout_weight="5"
+            android:gravity="left" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_win"
+        style="@style/txt_standings_1"
+        android:layout_weight="2" />
+
+    <TextView
+        android:id="@+id/txt_lost"
+        style="@style/txt_standings_1"
+        android:layout_weight="2" />
+
+    <TextView
+        android:id="@+id/txt_dif"
+        style="@style/txt_standings_1"
+        android:layout_weight="3" />
+
+    <!--
+         <TextView
+        android:id="@+id/txt_pf"
+        style="@style/txt_standings_1"
+        android:layout_weight="3" />
+    <TextView
+        android:id="@+id/txt_pa"
+        style="@style/txt_standings_1"
+        android:layout_weight="3" />
+    -->
+
+    <TextView
+        android:id="@+id/txt_status"
+        style="@style/txt_standings_1"
+        android:layout_weight="4" />
+
+</LinearLayout>

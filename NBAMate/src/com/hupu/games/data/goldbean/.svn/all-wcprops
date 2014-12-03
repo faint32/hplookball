@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/WL-APP-Games_Android/!svn/ver/1658/trunk/src/com/hupu/games/data/goldbean
+END
+GoldEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/1445/trunk/src/com/hupu/games/data/goldbean/GoldEntity.java
+END
+GoldDataService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1451/trunk/src/com/hupu/games/data/goldbean/GoldDataService.java
+END
+GoldBeanManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1658/trunk/src/com/hupu/games/data/goldbean/GoldBeanManager.java
+END
+GoldDallorRechargeEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WL-APP-Games_Android/!svn/ver/1445/trunk/src/com/hupu/games/data/goldbean/GoldDallorRechargeEntity.java
+END
+EventDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1445/trunk/src/com/hupu/games/data/goldbean/EventDataBean.java
+END
+ExchangeGoldBeanEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/WL-APP-Games_Android/!svn/ver/1595/trunk/src/com/hupu/games/data/goldbean/ExchangeGoldBeanEntity.java
+END

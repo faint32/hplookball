@@ -1,0 +1,91 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/src/com/hupu/games
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-12-02T07:44:18.484885Z
+1661
+dongshuming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+HuPuApp.java
+file
+
+
+
+
+2014-12-02T10:34:52.000000Z
+f9e84e614f1afad7ee26f87e08b386be
+2014-11-24T07:58:46.210803Z
+1608
+dongshuming
+
+activity
+dir
+
+adapter
+dir
+
+asynctask
+dir
+
+casino
+dir
+
+common
+dir
+
+data
+dir
+
+db
+dir
+
+dialog
+dir
+
+fragment
+dir
+
+handler
+dir
+
+hupudollor
+dir
+
+livegift
+dir
+
+pay
+dir
+
+service
+dir
+
+util
+dir
+
+view
+dir
+
+wxapi
+dir
+

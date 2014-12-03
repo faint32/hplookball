@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_header"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/selector_football_game_list"
+    android:orientation="vertical"
+    android:paddingTop="10dp" 
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center" 
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/img_team_left"
+                android:layout_width="66dp"
+                android:layout_height="53dp"
+                android:src="@drawable/bg_home_nologo" />
+        </LinearLayout>
+
+        <!-- 比分 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3" 
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_center"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                 android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/txt_score"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="111-111"
+                    android:textColor="@color/res_cor1"
+                    android:textSize="30sp"
+                    android:textStyle="bold|normal" />
+
+                <ImageView
+                    android:id="@+id/img_follow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_live_up" 
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center" 
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/img_team_right"
+                android:layout_width="66dp"
+                android:layout_height="53dp"
+                android:src="@drawable/bg_home_nologo" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txt_team_left"
+            style="@style/txt_football_team"
+            android:background="@drawable/bg_home_team_l" />
+
+        <TextView
+            android:id="@+id/txt_proccess"
+            style="@style/txt_football_team2"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txt_team_right"
+            style="@style/txt_football_team"
+            android:background="@drawable/bg_home_team_r" />
+    </LinearLayout>
+
+<!--     <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/bg_home_list_line" /> -->
+
+</LinearLayout>

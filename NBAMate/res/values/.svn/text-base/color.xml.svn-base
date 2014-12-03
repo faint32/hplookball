@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <color name="res_cor1">#ffffffff</color>
+ 	<color name="res_cor2">#ff000000</color>
+    <color name="res_cor3">#ffff0000</color>
+    <color name="res_cor4">#dedede</color>
+    <color name="res_cor5">#ff516491</color>
+    <color name="res_cor6">#ff444444</color>
+    <color name="res_cor7">#ff354149</color>
+    <color name="res_cor8">#ff808080</color>
+    <color name="res_cor9">#ff2c2d2c</color>
+    <color name="res_cor10">#f9ff50</color>
+    <color name="res_cor11">#ffba0000</color>
+    <color name="res_cor12">#ff151618</color>
+    <color name="res_cor20">#ff2b2b2b</color>
+    
+    <color name="blue">#ff0000ff</color>
+    <color name="transform">#00010101</color>
+    <color name="dark_gray">#ff333333</color>
+    <color name="light_gray">#ffcfdae0</color>
+    <color name="list_item_divider">#ffdedede</color>
+    <color name="bg">#ff88ddee</color>
+    <color name="setting_bg">#ffe2e4eb</color>
+    <color name="split_line">#ff111111</color>
+    <color name="split_magic">#ff0000ff</color>
+    <color name="split_default">#ff444444</color>
+    <color name="hint_color">#ffa4a4a4</color>
+    <color name="table_title">#ff898989</color>
+    <color name="txt_status">#ff919191</color>
+    <color name="bg_title_bar">#ff990f12</color>
+    <color name="bg_news_item">#ffeeeeee</color>
+    <color name="bg_menu_title_bar">#ff313131</color>
+    <color name="menu_txt_group">#ff626262</color>
+    
+    <color name="txt_player_name">#ff323232</color>
+    <color name="txt_player_rate">#ffa01e23</color>
+    <color name="txt_player_desc">#ff8b8b8b</color>
+	<color name="txt_rating_desc">#ff929292</color>
+	<color name="follow_team_bg">#212121</color>
+	<color name="foolow_team_text_color">#c8c8c8</color>
+	<color name="football_live_time_line">#ff2e4f1e</color>
+	<color name="offline_color">#525252</color>
+	<color name="football_team_text_color">#ffd2d2d2</color>
+	<color name="setting_font_color">#ff516491</color>
+	<color name="phone_bind_color">#ffc4c4c4</color>
+	<!-- 上墙渐变色  -->
+	<color name="bad_start">#003e8a</color>
+	<color name="bad_center">#007eff</color>
+	<color name="bad_end">#c3deff</color>
+	
+	<color name="good_start">#ffcb0000</color>
+	<color name="good_center">#ffffea00</color>
+	<color name="good_end">#fffff049</color>
+	
+	<color name="nice_start">#640055</color>
+	<color name="nice_center">#620807</color>
+	<color name="nice_end">#ff0300</color>
+	
+	<color name="honor_txt_color">#ff444444</color>
+	<color name="curblance_txt_color">#ffF60300</color>
+	<color name="balance_line_blove">#ffAAAAAA</color>
+	<color name="balance_line_below">#ffFFFFFF</color>
+	<color name="btn_msg_color">#ff676767</color>
+	<color name="exciting_color">#90000000</color>
+	<color name="choose_room_color">#FF000000</color>
+	
+	<color name="sas_rp_color">#A5A5A5</color>
+	<color name="mia_rp_color">#980222</color>
+	<color name="news_origin_color">#5f5f5f</color>
+	<color name="reply_group_color">#bd1d1d</color>
+	
+	<color name="static_color_1">#ff35363a</color>
+	<color name="static_color_2">#ff46474a</color>
+	<color name="static_color">#ff202023</color>
+	<color name="static_blank">#ff333636</color>
+	<color name="link_color">#ff004499</color>
+	<color name="faq_link_color">#ff7e99d7</color>
+	<color name="quiz_list_bg">#fff1f1f1</color>
+	<color name="web_bottom_bg">#80000000</color>
+	<color name="game_header">#ff545457</color>
+	<color name="football_statistic_down">#ff45484a</color>
+	<color name="football_statistic_up">#ff3a3d3f</color>
+	<color name="share_bg_color">#ffe6e6e6</color>
+	<color name="caipiao_num">#ffff7987</color>
+	<color name="lineup_list_up1">#ff404144</color>
+	<color name="lineup_list_up2">#ff46474a</color>
+	<color name="lineup_list_down">#ff2b2b2f</color>
+	
+	<color name="news_item_top">#ac1622</color>
+	
+	<color name="left_menu_divider">#3a3d41</color>
+	
+	<color name="home_tab_unselected">#cd737a</color>
+	<color name="bg_home_tab_order">#f1f1f1</color>
+	<color name="bg_home_tab_order_drag">#dedede</color>
+	<color name="bg_score_title_bar">#ab1722</color>
+	<color name="dicovery_item_selector">#d9d9d9</color>
+	<color name="list_divider">#000000</color>
+	<color name="bg_menu_left">#292b2e</color>
+	<color name="bg_menu_left_select">#1d1e20</color>
+	
+		<color name="txt_live_room_online">#ff5252</color>
+		<color name="txt_live_send_gift_bt_green">#42f06b</color>
+				<color name="txt_live_send_gift_bt_orange">#ff7d27</color>
+		<color name="txt_title_live_color">#cc747b</color>
+
+</resources>

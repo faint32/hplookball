@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/WL-APP-Games_Android/!svn/ver/1655/trunk/src/com/hupu/games/pay
+END
+BulletinRankActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/pay/BulletinRankActivity.java
+END
+PhoneInputActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/pay/PhoneInputActivity.java
+END
+AccountActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/pay/AccountActivity.java
+END
+BasePayActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WL-APP-Games_Android/!svn/ver/1655/trunk/src/com/hupu/games/pay/BasePayActivity.java
+END
+HupuUserLoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/pay/HupuUserLoginActivity.java
+END
+HupuOrderActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WL-APP-Games_Android/!svn/ver/1614/trunk/src/com/hupu/games/pay/HupuOrderActivity.java
+END
+HupuUserBindActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/pay/HupuUserBindActivity.java
+END
+PayCallBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/907/trunk/src/com/hupu/games/pay/PayCallBack.java
+END
+Result.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/pay/Result.java
+END
+PhoneBindActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/pay/PhoneBindActivity.java
+END
+PostOrderActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/pay/PostOrderActivity.java
+END
+HupuUserBindTipsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WL-APP-Games_Android/!svn/ver/1368/trunk/src/com/hupu/games/pay/HupuUserBindTipsActivity.java
+END

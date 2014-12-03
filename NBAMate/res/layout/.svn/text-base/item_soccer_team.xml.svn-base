@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_bg_team_date_selector" >
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textColor="@color/res_cor8"
+            android:textSize="@dimen/txt0" />
+
+        <TextView
+            android:id="@+id/txt_stage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:textColor="@color/res_cor8"
+            android:textSize="@dimen/txt0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_bg_team_schedule_selector"
+        android:gravity="center_vertical" >
+
+       
+        <TextView
+            android:id="@+id/txt_home_away"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/res_cor2"
+            android:textSize="@dimen/txt0"
+            android:gravity="center_horizontal" 
+            android:layout_marginLeft="4dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="5"
+            android:orientation="vertical" 
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txt_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/res_cor2"
+                    android:textSize="@dimen/txt0" />
+
+                <ImageView
+                    android:id="@+id/img_status"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_shootout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:textColor="@color/res_cor2"
+                android:textSize="@dimen/txt5" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_team_logo"
+            android:layout_width="83dp"
+            android:layout_height="66dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txt_team"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="@color/res_cor2"
+            android:textSize="@dimen/txt0" />
+
+        <TextView
+            android:id="@+id/txt_win"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight="10"
+            android:gravity="right"
+            android:textColor="@color/res_cor3"
+            android:textSize="@dimen/txt0" />
+    </LinearLayout>
+
+</LinearLayout>

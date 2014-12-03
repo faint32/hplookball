@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_portrait"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/static_blank" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <RelativeLayout
+            android:id="@+id/layout_live_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center" 
+            >
+
+            <RelativeLayout
+                android:id="@+id/layout_txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" >
+
+                <TextView
+                    android:id="@+id/txt_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/txt_title_live_color"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/title_room_peple_online"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_title"
+                     android:layout_centerHorizontal="true"
+                    android:textColor="@color/txt_title_live_color"
+                    android:textSize="14sp" 
+                    android:visibility="gone"/>
+            </RelativeLayout>
+            
+
+            <ImageView
+                android:id="@+id/title_room_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                 android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/layout_txt_title"
+                android:src="@drawable/icon_arrow_down_live"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/top_ad_img"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="-5dp"
+            android:layout_toLeftOf="@+id/layout_live_title"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_title_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btn_follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/btn_alarm_bright" />
+
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/btn_play_selector"
+                android:enabled="false" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_sent"
+            style="@style/btn_right"
+            android:text="@string/title_chat_input"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/gold_num"
+            style="@style/layout_right"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/gold_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_gold" />
+
+            <TextView
+                android:id="@+id/coin_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/gold_img"
+                android:text="..."
+                android:textColor="@color/res_cor1"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/add_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/coin_num"
+                android:src="@drawable/icon_quiz_add" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_score_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_title_bar"
+        android:background="@drawable/selector_football_game_list"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/img_team_left"
+                    android:layout_width="66dp"
+                    android:layout_height="53dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="10"
+                android:gravity="center" >
+
+                <!-- 比分 -->
+
+                <TextView
+                    android:id="@+id/txt_shootout1"
+                    style="@style/txt_football_team2" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txt_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 - 0"
+                    android:textColor="@color/res_cor1"
+                    android:textSize="32sp"
+                    android:textStyle="bold|normal" />
+
+                <TextView
+                    android:id="@+id/txt_shootout2"
+                    style="@style/txt_football_team2" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_start_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                android:textColor="@color/res_cor1"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/img_team_right"
+                    android:layout_width="66dp"
+                    android:layout_height="53dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txt_team_left"
+                style="@style/txt_football_team"
+                android:background="@drawable/bg_home_team_l" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/txt_proccess"
+                    style="@style/txt_football_team2"
+                    android:drawablePadding="2dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_team_right"
+                style="@style/txt_football_team"
+                android:background="@drawable/bg_home_team_r" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/layout_bottom"
+        android:layout_below="@+id/layout_score_bar" >
+
+        <FrameLayout
+            android:id="@+id/fragment_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/reward_info"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/exciting_color"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/icon_gold" />
+
+                <TextView
+                    android:id="@+id/reward_coin_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="0"
+                    android:textColor="@color/res_cor1"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+     <LinearLayout
+        android:id="@+id/layout_gift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_bottom"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/layout_game_bottom_bar" />
+    
+    <include
+        android:id="@+id/choose_room_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/layout_title_bar"
+        android:layout_marginTop="-7dp"
+        layout="@layout/layout_choose_room"
+        android:visibility="gone" />
+
+</RelativeLayout>

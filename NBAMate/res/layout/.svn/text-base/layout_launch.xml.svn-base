@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_launch"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/res_cor2" >
+
+
+    <!-- #6cb735 豌豆荚 -->
+    <!-- #007fc8 N多网 -->
+
+<!--     <TextView
+        android:id="@+id/img_cooperation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:drawablePadding="8dp" 
+        android:drawableTop="@drawable/wandoujia"
+        android:visibility="gone"
+        android:textColor="#6cb735"/> -->
+
+  <ImageView
+        android:id="@+id/img_ads"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/res_cor2"
+        android:scaleType="center"
+		android:visibility="gone"
+        />
+
+      <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/loading_live"
+        android:background="@color/res_cor2"/>
+</RelativeLayout>

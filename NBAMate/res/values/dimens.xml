@@ -1,0 +1,45 @@
+<!--
+  Copyright 2011 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <dimen name="slidingmenu_offset">100dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+    <dimen name="table_width">100dp</dimen>
+    <dimen name="table_height">35dp</dimen>
+    <dimen name="txt0">17sp</dimen>
+    <dimen name="txt1">18sp</dimen>
+    <dimen name="txt2">16sp</dimen>
+    <dimen name="txt3">15.3sp</dimen>
+    <dimen name="txt4">13.3sp</dimen>
+    <dimen name="txt5">12sp</dimen>
+    <dimen name="txt6">10.1sp</dimen>
+    <dimen name="txt7">10sp</dimen>
+    <dimen name="txt16">16sp</dimen>
+    <dimen name="txt_player">50dp</dimen>
+    <dimen name="txt_player_height">40dp</dimen>
+    <dimen name="txt_statistic_height">35dp</dimen>
+    <!-- 导航编辑 -->
+    <dimen name="dgv_overlap_if_switch_straight_line">16dp</dimen>
+    
+    <dimen name="top_bar_point_top_padding">12dp</dimen>
+    <dimen name="top_bar_point_right_padding">5dp</dimen>
+
+</resources>

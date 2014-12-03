@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bg_list_box_l"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txt_home_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2-1" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_home_event1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="huangma1" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_home_event2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="huangma2" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/football_live_time_line" />
+
+        <TextView
+             android:id="@+id/txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:background="@drawable/icon_score_time"
+            android:gravity="center"
+            android:text="100'"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/football_live_time_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bg_list_box_r"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txt_away_event1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="huangma1" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_away_score"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="2-1" 
+                android:gravity="right">
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_away_event2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="huangma2" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

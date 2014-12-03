@@ -1,0 +1,503 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/WL-APP-Games_Android/!svn/ver/1658/trunk/src/com/hupu/games/data
+END
+PlayersRatingByUserListResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/PlayersRatingByUserListResp.java
+END
+TeamValueEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/TeamValueEntity.java
+END
+SSLKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/WL-APP-Games_Android/!svn/ver/915/trunk/src/com/hupu/games/data/SSLKey.java
+END
+HonourEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/158/trunk/src/com/hupu/games/data/HonourEntity.java
+END
+UserRatingEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/UserRatingEntity.java
+END
+NotificationEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/NotificationEntity.java
+END
+IncreaseEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/520/trunk/src/com/hupu/games/data/IncreaseEntity.java
+END
+BitCoinReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/BitCoinReq.java
+END
+FollowResultEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WL-APP-Games_Android/!svn/ver/71/trunk/src/com/hupu/games/data/FollowResultEntity.java
+END
+TeamRankEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/TeamRankEntity.java
+END
+JsonPaserFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WL-APP-Games_Android/!svn/ver/1549/trunk/src/com/hupu/games/data/JsonPaserFactory.java
+END
+LeaguesEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/LeaguesEntity.java
+END
+BulletinRankReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/BulletinRankReq.java
+END
+PlayerRatingByUserEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/PlayerRatingByUserEntity.java
+END
+ContactsEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/ContactsEntity.java
+END
+BaseLiveResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/1500/trunk/src/com/hupu/games/data/BaseLiveResp.java
+END
+RanksResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WL-APP-Games_Android/!svn/ver/73/trunk/src/com/hupu/games/data/RanksResp.java
+END
+RechargeMethodReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/RechargeMethodReq.java
+END
+MyCaipiaoResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/MyCaipiaoResp.java
+END
+BindEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/BindEntity.java
+END
+InitResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/InitResp.java
+END
+TeamEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/TeamEntity.java
+END
+AnswerResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/518/trunk/src/com/hupu/games/data/AnswerResp.java
+END
+PlayerEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/PlayerEntity.java
+END
+AbstratsBaseEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WL-APP-Games_Android/!svn/ver/1225/trunk/src/com/hupu/games/data/AbstratsBaseEntity.java
+END
+CommitExchangeReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/CommitExchangeReq.java
+END
+UserLikeEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/UserLikeEntity.java
+END
+ExchangeEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/ExchangeEntity.java
+END
+LiveEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/LiveEntity.java
+END
+UserBoxEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/UserBoxEntity.java
+END
+ChatResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/ChatResp.java
+END
+MatchEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/MatchEntity.java
+END
+AnswerEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/518/trunk/src/com/hupu/games/data/AnswerEntity.java
+END
+PlayerRatingEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/PlayerRatingEntity.java
+END
+GetFollowTeamsResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/8/trunk/src/com/hupu/games/data/GetFollowTeamsResp.java
+END
+ScoreResq.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/ScoreResq.java
+END
+MyPrizeResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/376/trunk/src/com/hupu/games/data/MyPrizeResp.java
+END
+FollowResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WL-APP-Games_Android/!svn/ver/8/trunk/src/com/hupu/games/data/FollowResp.java
+END
+BaseEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/BaseEntity.java
+END
+PrizeEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/PrizeEntity.java
+END
+MyQuizResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/MyQuizResp.java
+END
+CheckBag.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/CheckBag.java
+END
+WeixinPayReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/WeixinPayReq.java
+END
+SendMsgResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/SendMsgResp.java
+END
+SidebarEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/1444/trunk/src/com/hupu/games/data/SidebarEntity.java
+END
+RPEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/RPEntity.java
+END
+SingleHonourEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/177/trunk/src/com/hupu/games/data/SingleHonourEntity.java
+END
+FormationEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1079/trunk/src/com/hupu/games/data/FormationEntity.java
+END
+BalanceReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/BalanceReq.java
+END
+TeamLineupEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WL-APP-Games_Android/!svn/ver/1050/trunk/src/com/hupu/games/data/TeamLineupEntity.java
+END
+ReqSmsEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/ReqSmsEntity.java
+END
+TeamsEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/78/trunk/src/com/hupu/games/data/TeamsEntity.java
+END
+MyHonourEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/173/trunk/src/com/hupu/games/data/MyHonourEntity.java
+END
+ChatEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1555/trunk/src/com/hupu/games/data/ChatEntity.java
+END
+ReplyRespEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/ReplyRespEntity.java
+END
+VideoResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/VideoResp.java
+END
+ChatGiftEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WL-APP-Games_Android/!svn/ver/1558/trunk/src/com/hupu/games/data/ChatGiftEntity.java
+END
+RechargeReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/RechargeReq.java
+END
+GuessTopEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/370/trunk/src/com/hupu/games/data/GuessTopEntity.java
+END
+MyCaipiaoListResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/MyCaipiaoListResp.java
+END
+LineupEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/1059/trunk/src/com/hupu/games/data/LineupEntity.java
+END
+VideoEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/VideoEntity.java
+END
+BuyItemEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/BuyItemEntity.java
+END
+GuessTopResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/370/trunk/src/com/hupu/games/data/GuessTopResp.java
+END
+BaseGameEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/BaseGameEntity.java
+END
+AdressEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/AdressEntity.java
+END
+CoinTopEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/370/trunk/src/com/hupu/games/data/CoinTopEntity.java
+END
+NickNameEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/57/trunk/src/com/hupu/games/data/NickNameEntity.java
+END
+RanksEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/1218/trunk/src/com/hupu/games/data/RanksEntity.java
+END
+PushNotify.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1563/trunk/src/com/hupu/games/data/PushNotify.java
+END
+PlayersRatingListResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/PlayersRatingListResp.java
+END
+ExchangeResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/551/trunk/src/com/hupu/games/data/ExchangeResp.java
+END
+OrderPacEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WL-APP-Games_Android/!svn/ver/1275/trunk/src/com/hupu/games/data/OrderPacEntity.java
+END
+ObtainEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/198/trunk/src/com/hupu/games/data/ObtainEntity.java
+END
+CommentInfoEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/CommentInfoEntity.java
+END
+StandingsResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/StandingsResp.java
+END
+TeamLineupResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WL-APP-Games_Android/!svn/ver/1059/trunk/src/com/hupu/games/data/TeamLineupResp.java
+END
+DiscoveryEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/DiscoveryEntity.java
+END
+MayBuyEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/177/trunk/src/com/hupu/games/data/MayBuyEntity.java
+END
+MyPrizeEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/MyPrizeEntity.java
+END
+RedDotEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/RedDotEntity.java
+END
+Recap.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/WL-APP-Games_Android/!svn/ver/89/trunk/src/com/hupu/games/data/Recap.java
+END
+TeamsResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/WL-APP-Games_Android/!svn/ver/8/trunk/src/com/hupu/games/data/TeamsResp.java
+END

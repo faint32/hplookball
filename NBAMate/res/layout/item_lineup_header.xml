@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="342dp"
+    android:background="@drawable/bg_football_live"
+    android:paddingTop="13dp"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp"
+    android:paddingBottom="6dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+    <GridView 
+        android:id="@+id/list_lineup"
+        android:layout_width="fill_parent"
+        android:layout_height="330dp"
+        android:background="@drawable/bg_lineup"
+        android:numColumns="5"
+        android:listSelector="@color/transform"
+		android:gravity="center_horizontal"
+		android:verticalSpacing="2dp"
+        android:horizontalSpacing="5dp"
+        android:scrollbars="none"
+        >
+    </GridView>
+
+</LinearLayout>

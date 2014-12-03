@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/static_blank" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/head_scroll"
+        android:layout_below="@+id/layout_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="5dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/res_cor1"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/coach_header"
+                    android:layout_width="83dp"
+                    android:layout_height="60dp" />
+
+                <com.hupu.games.view.HupuSingleLineTextView
+                    android:id="@+id/coach_name_zh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_toRightOf="@+id/coach_header"
+                    android:textColor="@color/res_cor2"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/coach_name_en"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/coach_name_zh"
+                    android:layout_marginLeft="7dp"
+                    android:layout_toRightOf="@+id/coach_header"
+                    android:textColor="@color/res_cor8"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/coach_num_team"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/coach_name_en"
+                    android:layout_marginLeft="7dp"
+                    android:layout_toRightOf="@+id/coach_header"
+                    android:textColor="@color/res_cor8"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/res_cor1"
+                android:orientation="vertical" >
+                
+                <TextView 
+                    android:id="@+id/coach_detail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/res_cor2"
+                    android:lineSpacingExtra="6dp"
+                    android:textSize="14sp"
+                    android:padding="5dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_intro"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/res_cor1"
+                android:visibility="gone"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/res_cor2"
+                    android:padding="3dp"
+                    android:textSize="14sp"
+                    android:text="@string/coach_introduce"
+                    android:background="@color/res_cor4"
+                    
+                     />
+                <TextView 
+                    android:id="@+id/coach_intro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/res_cor2"
+                    android:textSize="14sp"
+                    android:padding="5dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/probar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/static_blank"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_gray"
+        android:orientation="vertical" >
+        <com.hupu.games.view.XListView
+            android:id="@+id/list_honour"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="-1dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/divider"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="false"
+            android:listSelector="@color/transform"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</LinearLayout>

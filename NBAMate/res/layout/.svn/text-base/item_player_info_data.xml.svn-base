@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 球员的打分列表页 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/res_cor1"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/data_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/res_cor6"
+        android:textSize="24sp"
+        android:layout_marginLeft="8dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+         android:layout_marginLeft="8dp">
+
+        <TextView
+            android:id="@+id/data_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/res_cor6"
+            android:textSize="@dimen/txt5" />
+
+        <TextView
+            android:id="@+id/data_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/res_cor3"
+            android:textSize="@dimen/txt5" />
+    </LinearLayout>
+
+</LinearLayout>

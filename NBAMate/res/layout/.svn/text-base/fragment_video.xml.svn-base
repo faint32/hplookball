@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dark_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_video_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rank_type_bg_down"
+            android:shadowColor="@color/res_cor2" 
+            android:shadowDx="1"
+            android:shadowRadius="0"
+            android:shadowDy="1"
+            android:textColor="@color/res_cor1"
+            android:textSize="18sp" />
+        
+        <Button
+            android:id="@+id/btn_video_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:shadowColor="@color/res_cor2" 
+            android:shadowDx="1"
+            android:shadowRadius="0"
+            android:shadowDy="1"
+            android:background="@drawable/btn_rank_type_selector"
+            android:textColor="@drawable/text_selector"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <com.hupu.games.view.XListView
+        android:id="@+id/list_video"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:listSelector="@null"
+        android:scrollbars="none" 
+        android:layout_marginTop="-1dp"/>
+
+</LinearLayout>

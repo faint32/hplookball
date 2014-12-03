@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/WL-APP-Games_Android/!svn/ver/1657/trunk/src/com/hupu/games/common
+END
+HupuJsonObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/370/trunk/src/com/hupu/games/common/HupuJsonObject.java
+END
+HuPuRes.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/1657/trunk/src/com/hupu/games/common/HuPuRes.java
+END
+Template.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/common/Template.java
+END
+SubTab.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/common/SubTab.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WL-APP-Games_Android/!svn/ver/810/trunk/src/com/hupu/games/common/Base64.java
+END
+SharedPreferencesMgr.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/common/SharedPreferencesMgr.java
+END
+SocketIoHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1578/trunk/src/com/hupu/games/common/SocketIoHandler.java
+END
+HupuScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/common/HupuScheme.java
+END
+HupuLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/1165/trunk/src/com/hupu/games/common/HupuLog.java
+END
+DoubleClickUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/common/DoubleClickUtil.java
+END
+HupuSchemeProccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/common/HupuSchemeProccess.java
+END
+DataCenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/633/trunk/src/com/hupu/games/common/DataCenter.java
+END
+MD5Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WL-APP-Games_Android/!svn/ver/911/trunk/src/com/hupu/games/common/MD5Util.java
+END

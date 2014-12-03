@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/item_player_rate_selector" 
+>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+       >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/img_header"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:background="@drawable/bg_photo_box"
+                android:padding="3dp"
+                android:scaleType="centerCrop" 
+                 android:layout_marginLeft="4dp"/>
+
+            <TextView
+                android:id="@+id/txt_player_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_toRightOf="@id/img_header"
+                android:ellipsize="end"
+                android:singleLine="true"
+    
+                android:textColor="@color/txt_player_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_player_memo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/txt_player_name"
+                android:layout_toRightOf="@id/txt_player_name"
+                android:ellipsize="end"
+                android:singleLine="true"
+
+                android:textColor="@color/txt_player_desc"
+                android:textSize="15sp" 
+                android:layout_marginBottom="1dp"/>
+
+            <TextView
+                android:id="@+id/txt_player_discription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/txt_player_name"
+                android:layout_below="@id/txt_player_name"
+
+                android:textColor="@color/txt_player_desc"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="2dp" >
+
+            <TextView
+                android:id="@+id/txt_player_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_star_s"
+                android:drawablePadding="2dp"
+                android:text="10分"
+                android:textColor="@color/txt_player_rate"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt_rating_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10人"
+                android:textColor="@color/txt_player_name"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:id="@+id/btn_rate_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:minWidth="82dp"
+        android:minHeight="52dp"
+        android:gravity="bottom|center_horizontal"
+        >
+    <TextView
+        android:id="@+id/btn_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="right|bottom"
+        android:minWidth="82dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/STR_RATE"
+        android:textColor="@color/res_cor1"
+        android:textSize="12sp" />
+    </LinearLayout>
+
+</FrameLayout>

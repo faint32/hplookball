@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop_box"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/quiz_list_tiele"
+        android:textSize="30sp"
+        android:textColor="@color/res_cor3"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt_casino_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_casino_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/res_cor8"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_line" />
+
+    <LinearLayout
+        android:id="@+id/radioGroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/radio0"
+            style="@style/BetButton" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/radio1"
+            style="@style/BetButton" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/radio2"
+            style="@style/BetButton" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/radioGroup2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/radio3"
+            style="@style/BetButton" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/radio4"
+            style="@style/BetButton" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/radio5"
+            style="@style/BetButton" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/txt_1"
+            style="@style/BetText" 
+            android:text="当前余额：..."/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_gray_selector"
+            android:minWidth="120dp"
+            android:text="@string/cancel"
+            android:textColor="@color/res_cor1"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_red_selector"
+            android:minWidth="120dp"
+            android:text="@string/submit_confirm"
+            android:textColor="@color/res_cor1"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

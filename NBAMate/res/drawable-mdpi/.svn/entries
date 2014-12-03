@@ -1,0 +1,54 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/res/drawable-mdpi
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-06-25T14:26:41.389685Z
+1111
+dongshuming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+icon_launcher.png
+file
+
+
+
+
+2014-12-02T10:35:50.000000Z
+79c5c960824f517aac32cc7f821352dd
+2014-06-16T03:22:05.313634Z
+1103
+dongshuming
+has-props
+
+icon_notify.png
+file
+
+
+
+
+2014-12-02T10:35:50.000000Z
+67602dafee81959faa40ed123f2500aa
+2014-06-25T14:26:41.389685Z
+1111
+dongshuming
+has-props
+

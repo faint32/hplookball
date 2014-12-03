@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1593/trunk/src/com/hupu/games/data/game/basketball
+END
+BasketBallGamesBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WL-APP-Games_Android/!svn/ver/1327/trunk/src/com/hupu/games/data/game/basketball/BasketBallGamesBlock.java
+END
+BasketballResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/BasketballResp.java
+END
+BasketballGameData.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/BasketballGameData.java
+END
+NBALiveResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WL-APP-Games_Android/!svn/ver/1164/trunk/src/com/hupu/games/data/game/basketball/NBALiveResp.java
+END
+NbaPlayerInfoReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/NbaPlayerInfoReq.java
+END
+BasketballGamesResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/BasketballGamesResp.java
+END
+NbaPlayersDataReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/NbaPlayersDataReq.java
+END
+SingleCBAData.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/SingleCBAData.java
+END
+BasketballGameEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WL-APP-Games_Android/!svn/ver/1593/trunk/src/com/hupu/games/data/game/basketball/BasketballGameEntity.java
+END
+CBABoxScoreResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/CBABoxScoreResp.java
+END
+NbaTeamReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/NbaTeamReq.java
+END
+NbaTeamPlayerReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/NbaTeamPlayerReq.java
+END
+NbaTeamDataEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/NbaTeamDataEntity.java
+END
+NbaTeamPlayerEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/NbaTeamPlayerEntity.java
+END
+NbaTeamScheduleReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/basketball/NbaTeamScheduleReq.java
+END

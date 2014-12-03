@@ -1,0 +1,52 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/src/com/hupu/games/db
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-10-30T07:07:27.399674Z
+1416
+dongshuming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+HuPuDBAdapter.java
+file
+
+
+
+
+2014-12-02T10:34:48.000000Z
+0b94a6457da3a08d3610b110221f94a3
+2014-10-30T07:07:27.399674Z
+1416
+dongshuming
+
+HuPuDBHelp.java
+file
+
+
+
+
+2014-12-02T10:34:48.000000Z
+ac932d2d24167da8e1406051a2a2d620
+2014-10-30T07:07:27.399674Z
+1416
+dongshuming
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txt_rank"
+            style="@style/txt_standings_1"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="3dp"
+            android:text="@string/STR_NUM"
+            android:textSize="@dimen/txt16" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:visibility="invisible" />
+
+        <TextView
+            style="@style/txt_standings_1"
+            android:layout_weight="7"
+            android:gravity="left"
+            android:text="@string/STR_PLAYER"
+            android:textSize="@dimen/txt16" />
+
+        <TextView
+            style="@style/txt_standings_1"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="@string/STR_ROLE"
+            android:textSize="@dimen/txt16" />
+
+        <TextView
+            style="@style/txt_standings_1"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/STR_SALARY"
+            android:textSize="@dimen/txt16" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_player"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/layout_head"
+        android:divider="@null" />
+
+    <ProgressBar
+        android:id="@+id/probar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

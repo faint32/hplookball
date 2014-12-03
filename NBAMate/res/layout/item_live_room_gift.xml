@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/gift_total_1"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_toLeftOf="@+id/btn_gift_green_layout"
+        android:gravity="right|center_vertical"
+        android:layout_centerVertical="true"
+        
+        android:textColor="@color/txt_live_send_gift_bt_green" />
+
+    <FrameLayout
+        android:id="@+id/btn_gift_green_layout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_gift_green_selector" >
+
+        <com.hupu.games.livegift.animation.AutofitTextView
+            android:id="@+id/btn_gift_green"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+           android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="6dp"
+            android:text="e"
+            android:textColor="@color/txt_live_send_gift_bt_green" />
+    </FrameLayout>
+
+</RelativeLayout>

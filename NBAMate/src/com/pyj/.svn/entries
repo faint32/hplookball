@@ -1,0 +1,53 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/src/com/pyj
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-11-17T09:34:30.238537Z
+1544
+dongshuming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+BaseApplication.java
+file
+
+
+
+
+2014-12-02T10:35:04.000000Z
+b66577af5b7b1c764950c295df7b7e15
+2014-10-30T07:07:27.399674Z
+1416
+dongshuming
+has-props
+
+activity
+dir
+
+adapter
+dir
+
+common
+dir
+
+http
+dir
+

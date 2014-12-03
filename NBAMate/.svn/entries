@@ -1,0 +1,160 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-12-02T07:44:18.484885Z
+1661
+dongshuming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+.classpath
+file
+
+
+
+
+2014-12-02T10:36:04.000000Z
+d6c3ded0c908fadb2cd283ebe4e61ff5
+2014-11-12T02:31:02.922739Z
+1478
+songzhenhua
+has-props
+
+.project
+file
+
+
+
+
+2014-12-02T10:34:39.000000Z
+7bd690610355c31cac5185b1f607dc27
+2012-10-23T10:10:33.038934Z
+3
+panyongjun
+
+.settings
+dir
+
+AndroidManifest.xml
+file
+
+
+
+
+2014-12-02T10:36:04.000000Z
+dfe2930c5680e1fa044f07c060cee1da
+2014-12-01T03:45:00.495828Z
+1641
+dongshuming
+
+alipay_lib.rar
+file
+
+
+
+
+2014-12-02T10:35:06.000000Z
+638bf773add3d97329edc2c864211a03
+2013-11-06T07:13:20.626433Z
+688
+hushaoping
+has-props
+
+assets
+dir
+
+bin
+dir
+
+build.xml
+file
+
+
+
+
+2014-12-02T10:36:04.000000Z
+e45dab3b783ec5259d3a4cb63c530eeb
+2013-10-10T09:51:21.745332Z
+596
+panyongjun
+
+game_mate_hupu.zip
+file
+
+
+
+
+2014-12-02T10:34:39.000000Z
+1813829f3eeaed772aaafe393a2c5c14
+2013-10-10T09:51:21.745332Z
+596
+panyongjun
+has-props
+
+libs
+dir
+
+lint.xml
+file
+
+
+
+
+2014-12-02T10:36:04.000000Z
+9807f2c31709a1bd55046cd2053e172e
+2013-10-10T09:51:21.745332Z
+596
+panyongjun
+
+proguard
+dir
+
+proguard-project.txt
+file
+
+
+
+
+2014-12-02T10:36:04.000000Z
+d583e487d0e4df2eeefe21f457b5125e
+2014-10-23T01:51:37.119689Z
+1410
+dongshuming
+
+project.properties
+file
+
+
+
+
+2014-12-02T10:36:04.000000Z
+cf0e96d16fabacdc5779cbf6239d4cd8
+2014-11-12T02:31:02.922739Z
+1478
+songzhenhua
+
+res
+dir
+
+src
+dir
+

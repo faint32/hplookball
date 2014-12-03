@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/personal/box
+END
+BoxScoreResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/personal/box/BoxScoreResp.java
+END
+BoxBalanceEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WL-APP-Games_Android/!svn/ver/1164/trunk/src/com/hupu/games/data/personal/box/BoxBalanceEntity.java
+END
+BoxOpenEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/personal/box/BoxOpenEntity.java
+END
+BoxInfoEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/WL-APP-Games_Android/!svn/ver/1164/trunk/src/com/hupu/games/data/personal/box/BoxInfoEntity.java
+END

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/setting_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/title_hupu_bind" />
+        <Button
+            android:id="@+id/btn_contacts"
+            style="@style/btn_right"
+            android:text="@string/title_contacts"
+            android:textColor="@color/res_cor1" />
+    </RelativeLayout>
+
+
+     <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:gravity="left"
+                android:textColor="#ff516491"
+                android:text="@string/hupu_bind_tips"
+                android:textSize="16sp" />
+     
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_yes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_red2_selector"
+                android:padding="2dp"
+                android:text="@string/hupu_bind_yes"
+                android:textColor="@color/res_cor1"
+                android:textSize="16sp"/>
+            
+            <Button
+                android:id="@+id/btn_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_red2_selector"
+                android:padding="2dp"
+                android:text="@string/hupu_bind_no"
+                android:textColor="@color/res_cor1"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+</LinearLayout>

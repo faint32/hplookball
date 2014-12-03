@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_left"
+            android:text="@string/cancel" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/title_chat_input" />
+
+        <Button
+            android:id="@+id/btn_sent"
+            style="@style/btn_right"
+            android:text="@string/sent"
+            android:textColor="@color/res_cor1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/setting_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layout_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/edt_msg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dp"
+                android:gravity="left|top"
+                android:hint="@string/chat_hint" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/txt_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/edt_msg"
+                android:layout_alignRight="@id/edt_msg"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/shape_light_gray"
+                android:text="140字"
+                android:textColor="@color/txt_status" />
+
+ <!--            <TextView
+                android:id="@+id/txt_tips"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/pop_1"
+                android:paddingLeft="6dp"
+                android:text="@string/pop_emoji"
+                android:textColor="@color/res_cor1"
+                android:textSize="12sp" 
+                android:visibility="gone"/> -->
+        </RelativeLayout>
+
+<!--         <LinearLayout
+            android:id="@+id/layout_emoji"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:minHeight="120dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/img_emoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+ 
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/emoj_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="230dp"
+            android:visibility="gone" >
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/layout_indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:visibility="gone" 
+            android:orientation="horizontal">
+        </LinearLayout> -->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="4dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt_rank"
+            style="@style/txt_standings_1"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:text="@string/STR_RANK" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/txt_team"
+            style="@style/txt_standings_1"
+            android:layout_weight="4"
+            android:gravity="left"
+            android:text="@string/STR_TEAM" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_win"
+        style="@style/txt_standings_1"
+        android:layout_weight="2"
+        android:text="@string/STR_WIN" />
+
+    <TextView
+        android:id="@+id/txt_lost"
+        style="@style/txt_standings_1"
+        android:layout_weight="2"
+        android:text="@string/STR_LOST" />
+
+    <TextView
+        android:id="@+id/txt_dif"
+        style="@style/txt_standings_1"
+        android:layout_weight="4"
+        android:gravity="left"
+        android:text="@string/STR_DIF" />
+
+    <!--
+         <TextView
+        android:id="@+id/txt_pf"
+        style="@style/txt_standings_1"
+        android:layout_weight="3"
+        android:gravity="left"
+        android:text="@string/STR_PF" />
+    
+    <TextView
+        android:id="@+id/txt_pa"
+        style="@style/txt_standings_1"
+        android:layout_weight="3"
+        android:text="@string/STR_PA" />
+    -->
+
+    <TextView
+        android:id="@+id/txt_status"
+        style="@style/txt_standings_1"
+        android:layout_weight="3"
+        android:gravity="left"
+        android:text="@string/STR_RECENT" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/WL-APP-Games_Android/!svn/ver/1472/trunk/src/com/pyj/http
+END
+AsyncHttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/pyj/http/AsyncHttpRequest.java
+END
+SimpleMultipartEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/975/trunk/src/com/pyj/http/SimpleMultipartEntity.java
+END
+JsonHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/423/trunk/src/com/pyj/http/JsonHttpResponseHandler.java
+END
+PersistentCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/423/trunk/src/com/pyj/http/PersistentCookieStore.java
+END
+SyncHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/WL-APP-Games_Android/!svn/ver/975/trunk/src/com/pyj/http/SyncHttpClient.java
+END
+AsyncHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1301/trunk/src/com/pyj/http/AsyncHttpResponseHandler.java
+END
+RequestParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/pyj/http/RequestParams.java
+END
+SerializableCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/423/trunk/src/com/pyj/http/SerializableCookie.java
+END
+BinaryHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/423/trunk/src/com/pyj/http/BinaryHttpResponseHandler.java
+END
+RetryHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WL-APP-Games_Android/!svn/ver/423/trunk/src/com/pyj/http/RetryHandler.java
+END
+SSLSocketFactoryEx.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/910/trunk/src/com/pyj/http/SSLSocketFactoryEx.java
+END
+AsyncHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WL-APP-Games_Android/!svn/ver/1472/trunk/src/com/pyj/http/AsyncHttpClient.java
+END

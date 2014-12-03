@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WL-APP-Games_Android/!svn/ver/1600/trunk/src/com/hupu/games/data/game/football
+END
+SoccerTeamScheduleReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/SoccerTeamScheduleReq.java
+END
+SoccerGamesBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/WL-APP-Games_Android/!svn/ver/1397/trunk/src/com/hupu/games/data/game/football/SoccerGamesBlock.java
+END
+FootballPlayerInfoReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/FootballPlayerInfoReq.java
+END
+FootballLeagueResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/FootballLeagueResp.java
+END
+SoccerPlayerReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/SoccerPlayerReq.java
+END
+SoccerTeamDataEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/SoccerTeamDataEntity.java
+END
+FootballStatisticResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WL-APP-Games_Android/!svn/ver/1166/trunk/src/com/hupu/games/data/game/football/FootballStatisticResp.java
+END
+SoccerEventsResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/WL-APP-Games_Android/!svn/ver/1173/trunk/src/com/hupu/games/data/game/football/SoccerEventsResp.java
+END
+ScoreboardEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/WL-APP-Games_Android/!svn/ver/1600/trunk/src/com/hupu/games/data/game/football/ScoreboardEntity.java
+END
+SoccerLiveResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WL-APP-Games_Android/!svn/ver/1164/trunk/src/com/hupu/games/data/game/football/SoccerLiveResp.java
+END
+UFEALeagueResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/UFEALeagueResp.java
+END
+FootballCoachInfoReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/FootballCoachInfoReq.java
+END
+SoccerOutsReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/SoccerOutsReq.java
+END
+SoccerPlayerEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/SoccerPlayerEntity.java
+END
+FootballEventData.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/FootballEventData.java
+END
+SoccerTeamReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/football/SoccerTeamReq.java
+END

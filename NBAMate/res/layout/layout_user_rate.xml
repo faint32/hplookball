@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 给球员打分 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar"
+        android:layout_width="fill_parent" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/title_rate" />
+
+        <Button
+            android:id="@+id/btn_send"
+            style="@style/btn_right"
+            android:text="@string/STR_SENT"
+            android:textColor="@color/res_cor1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/setting_bg"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/txt_player_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="lbj"
+            android:textColor="#ff000000"
+            android:textSize="16sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/MyRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_player_name"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:numStars="10"
+            android:rating="0"
+            android:stepSize="1" />
+
+        <EditText
+            android:id="@+id/edt_rating_text"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_below="@id/ratingBar"
+            android:background="@drawable/bg_edit_text"
+            android:gravity="left|top"
+            android:hint="@string/rate_hint"
+            android:textColorHint="@color/hint_color" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/txt_nums"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/edt_rating_text"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginRight="12dp"
+            android:text="140字"
+            android:textColor="@color/hint_color" 
+            android:background="@drawable/shape_light_gray"/>
+    </RelativeLayout>
+
+</LinearLayout>

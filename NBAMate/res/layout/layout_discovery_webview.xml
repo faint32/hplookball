@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_title_bar"
+            style="@style/bg_title_bar" >
+
+            <Button
+                android:id="@+id/btn_back"
+                 style="@style/btn_back"/>
+
+            <TextView
+                android:id="@+id/txt_title"
+                style="@style/txt_title"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center" />
+
+            <ImageButton
+                android:id="@+id/btn_share"
+                style="@style/btn_right"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/btn_jump_selector" />
+        </LinearLayout>
+
+        <com.hupu.games.view.HupuWebView
+            android:id="@+id/webview"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/layout_tool_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:background="@color/web_bottom_bg"
+            android:gravity="center_vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_pre"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/res_cor6"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_pre_selector" />
+
+            <ImageButton
+                android:id="@+id/btn_next"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/res_cor6"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_next_selector" />
+            
+                <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/res_cor6"
+               
+               /> 
+
+            <ImageButton
+                android:id="@+id/btn_fresh"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/res_cor6"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_refesh_selector" />
+
+          <!--   <LinearLayout
+                android:id="@+id/layout_reply"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/res_cor6"
+                android:gravity="center" >
+
+                <ImageButton
+                    android:id="@+id/btn_reply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/res_cor6"
+                    android:clickable="false"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_comment_selector" />
+
+                <TextView
+                    android:id="@+id/txt_reply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text="0"
+                    android:textColor="@drawable/btn_reply_text" />
+            </LinearLayout> -->
+
+   <!--          <ImageButton
+                android:id="@+id/btn_out"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/res_cor6"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_web_out_selector"
+                android:visibility="gone" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+   <!--  <Button
+        android:id="@+id/btn_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:background="@drawable/btn_web_in_selector"
+        android:visibility="gone" /> -->
+
+</FrameLayout>

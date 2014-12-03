@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/koushikdutta/async/http
+END
+StringBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/StringBody.java
+END
+AsyncHttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/AsyncHttpRequest.java
+END
+JSONObjectBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/JSONObjectBody.java
+END
+MultipartFormDataBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/MultipartFormDataBody.java
+END
+AsyncHttpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/AsyncHttpResponse.java
+END
+StringPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/StringPart.java
+END
+Multimap.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/Multimap.java
+END
+AsyncHttpClientMiddleware.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/AsyncHttpClientMiddleware.java
+END
+SimpleMiddleware.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/SimpleMiddleware.java
+END
+AsyncHttpGet.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/AsyncHttpGet.java
+END
+Part.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/Part.java
+END
+UrlEncodedFormBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/UrlEncodedFormBody.java
+END
+AsyncSSLSocketMiddleware.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/AsyncSSLSocketMiddleware.java
+END
+AsyncHttpPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/870/trunk/src/com/koushikdutta/async/http/AsyncHttpPost.java
+END
+AsyncHttpResponseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/AsyncHttpResponseImpl.java
+END
+JSONArrayBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/JSONArrayBody.java
+END
+WebSocketImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/810/trunk/src/com/koushikdutta/async/http/WebSocketImpl.java
+END
+FilePart.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/FilePart.java
+END
+HybiParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/HybiParser.java
+END
+StreamPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/StreamPart.java
+END
+HttpUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/HttpUtil.java
+END
+WebSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/WebSocket.java
+END
+ResponseCacheMiddleware.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/WL-APP-Games_Android/!svn/ver/810/trunk/src/com/koushikdutta/async/http/ResponseCacheMiddleware.java
+END
+AsyncSocketMiddleware.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/AsyncSocketMiddleware.java
+END
+AsyncHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/AsyncHttpClient.java
+END
+AsyncHttpRequestBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WL-APP-Games_Android/!svn/ver/420/trunk/src/com/koushikdutta/async/http/AsyncHttpRequestBody.java
+END

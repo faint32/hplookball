@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WL-APP-Games_Android/!svn/ver/1640/trunk/src/com/hupu/games/livegift/animation
+END
+SimpleAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WL-APP-Games_Android/!svn/ver/1481/trunk/src/com/hupu/games/livegift/animation/SimpleAnimationListener.java
+END
+FrameAnimatior.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WL-APP-Games_Android/!svn/ver/1495/trunk/src/com/hupu/games/livegift/animation/FrameAnimatior.java
+END
+HalfScalAnimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/WL-APP-Games_Android/!svn/ver/1481/trunk/src/com/hupu/games/livegift/animation/HalfScalAnimator.java
+END
+AutofitTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WL-APP-Games_Android/!svn/ver/1481/trunk/src/com/hupu/games/livegift/animation/AutofitTextView.java
+END
+NumAnimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/1481/trunk/src/com/hupu/games/livegift/animation/NumAnimator.java
+END
+LruCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1626/trunk/src/com/hupu/games/livegift/animation/LruCache.java
+END
+AutofitHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WL-APP-Games_Android/!svn/ver/1481/trunk/src/com/hupu/games/livegift/animation/AutofitHelper.java
+END
+AnimationTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WL-APP-Games_Android/!svn/ver/1640/trunk/src/com/hupu/games/livegift/animation/AnimationTool.java
+END
+AutofitLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WL-APP-Games_Android/!svn/ver/1481/trunk/src/com/hupu/games/livegift/animation/AutofitLayout.java
+END
+BaseViewAnimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/WL-APP-Games_Android/!svn/ver/1481/trunk/src/com/hupu/games/livegift/animation/BaseViewAnimator.java
+END
+EndScalAnimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WL-APP-Games_Android/!svn/ver/1596/trunk/src/com/hupu/games/livegift/animation/EndScalAnimator.java
+END

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.hupu.games.view.HupuViewPager
+        android:id="@+id/pager_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_home" />
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/bg_bottom"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/btn_game"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_bottom_hover"
+          	 android:src="@drawable/btn_nba_game_down" />
+
+        <ImageButton
+            android:id="@+id/btn_news"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@color/transform"
+       		 android:src="@drawable/btn_news_up" />
+
+        <ImageButton
+            android:id="@+id/btn_video"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@color/transform"
+
+            android:src="@drawable/btn_video" />
+
+        <ImageButton
+            android:id="@+id/btn_standing"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@color/transform"
+
+            android:src="@drawable/btn_standings" />
+
+        <ImageButton
+            android:id="@+id/btn_cba"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@color/transform"
+      	    android:src="@drawable/btn_cba_up" 
+            />
+    </LinearLayout>
+
+</LinearLayout>

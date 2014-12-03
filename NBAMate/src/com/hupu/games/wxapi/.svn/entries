@@ -1,0 +1,52 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/src/com/hupu/games/wxapi
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-10-30T07:07:27.399674Z
+1416
+dongshuming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+WXEntryActivity.java
+file
+
+
+
+
+2014-12-02T10:34:48.000000Z
+4915bb93bd759e199e03cca9506ddb71
+2014-07-31T05:44:16.754686Z
+1160
+panyongjun
+
+WXPayEntryActivity.java
+file
+
+
+
+
+2014-12-02T10:34:48.000000Z
+92e38456660d95329d529780ee4172a4
+2014-10-30T07:07:27.399674Z
+1416
+dongshuming
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/news_bg_hover" android:state_selected="true"/>
+    <item android:drawable="@drawable/news_bg_hover" android:state_focused="true"/>
+    <item android:drawable="@drawable/news_bg_hover" android:state_pressed="true"/>
+    <item android:drawable="@color/bg_news_item"/>
+
+</selector>

@@ -1,0 +1,52 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/src/com/koushikdutta/async/http/callback
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2013-08-19T03:32:37.203861Z
+420
+panyongjun
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+HttpConnectCallback.java
+file
+
+
+
+
+2014-12-02T10:34:41.000000Z
+0c579b64454979cbeae050e4a68c6f57
+2013-08-19T03:32:37.203861Z
+420
+panyongjun
+
+RequestCallback.java
+file
+
+
+
+
+2014-12-02T10:34:41.000000Z
+6d2746a57853735b049a4f2a67322ff5
+2013-08-19T03:32:37.203861Z
+420
+panyongjun
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 球员的打分列表页 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_discovery"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_user_list_item_bg">
+	<LinearLayout
+	    android:layout_margin="4dp"
+	    android:layout_width="fill_parent"
+        android:layout_height="50dp" 
+    	android:gravity="center_vertical" 
+    	android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="43dp"
+        android:maxHeight="43dp"
+         />
+    
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/res_cor6"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/red_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        android:src="@drawable/icon_red_point" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/icon_arrow" />
+	    
+	</LinearLayout>
+</LinearLayout>

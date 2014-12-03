@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WL-APP-Games_Android/!svn/ver/1595/trunk/src/com/hupu/games/data/game/quiz
+END
+QuizListResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/quiz/QuizListResp.java
+END
+QuizCommitResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1595/trunk/src/com/hupu/games/data/game/quiz/QuizCommitResp.java
+END
+QuizResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/quiz/QuizResp.java
+END
+QuizCaipiaoListResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/quiz/QuizCaipiaoListResp.java
+END
+QuizCaipiaoEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/quiz/QuizCaipiaoEntity.java
+END
+QuizEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/game/quiz/QuizEntity.java
+END

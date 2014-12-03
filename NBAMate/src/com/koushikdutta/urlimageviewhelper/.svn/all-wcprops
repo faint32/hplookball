@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/koushikdutta/urlimageviewhelper
+END
+AssetUrlDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/AssetUrlDownloader.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/Constants.java
+END
+DrawableCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/DrawableCache.java
+END
+LruCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/LruCache.java
+END
+UrlDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/UrlDownloader.java
+END
+SoftReferenceHashTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/SoftReferenceHashTable.java
+END
+UrlImageViewHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/koushikdutta/urlimageviewhelper/UrlImageViewHelper.java
+END
+ContentUrlDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/ContentUrlDownloader.java
+END
+LruBitmapCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/LruBitmapCache.java
+END
+HttpUrlDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/koushikdutta/urlimageviewhelper/HttpUrlDownloader.java
+END
+UrlImageViewCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/UrlImageViewCallback.java
+END
+FileUrlDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/FileUrlDownloader.java
+END
+ContactContentUrlDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/WL-APP-Games_Android/!svn/ver/435/trunk/src/com/koushikdutta/urlimageviewhelper/ContactContentUrlDownloader.java
+END

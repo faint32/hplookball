@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/my_userinfo" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/setting_bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/user_info_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_bind_list_bg"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/layout_qq_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/icon_qq_bind" />
+
+                    <TextView
+                        android:id="@+id/qq_login_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/qq_login_text"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="20sp" />
+
+                    <ProgressBar
+                        android:id="@+id/qq_Porgress"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="5dp" />
+
+                    <ImageView
+                        android:id="@+id/qq_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/icon_arrow" />
+
+                    <Button
+                        android:id="@+id/btn_qq_bind"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/btn_binding_selector"
+                        android:minHeight="30dp"
+                        android:minWidth="60dp"
+                        android:padding="5dp"
+                        android:textColor="@color/res_cor11"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/bg_user_list_bg"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/icon_phone_bind" />
+
+                    <TextView
+                        android:id="@+id/phone_login_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/phone_login"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="20sp" />
+
+                    <ProgressBar
+                        android:id="@+id/phone_Porgress"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="5dp" />
+
+                    <ImageView
+                        android:id="@+id/phone_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/icon_arrow" />
+
+                    <Button
+                        android:id="@+id/btn_phone_bind"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/btn_binding_selector"
+                        android:minHeight="30dp"
+                        android:minWidth="60dp"
+                        android:textColor="@color/res_cor11"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+                
+                
+                <LinearLayout
+                    android:id="@+id/layout_hupu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/bg_user_list_bg"
+                    android:visibility="gone"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/icon_mail_logo" />
+
+                    <TextView
+                        android:id="@+id/hupu_login_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/hupu_login"
+                        android:textColor="@color/res_cor2"
+                        android:textSize="20sp" />
+
+                    <ProgressBar
+                        android:id="@+id/hupu_Porgress"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="5dp" />
+
+                    <ImageView
+                        android:id="@+id/hupu_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/icon_arrow" />
+
+                    <Button
+                        android:id="@+id/btn_hupu_bind"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/btn_binding_selector"
+                        android:minHeight="30dp"
+                        android:minWidth="60dp"
+                        android:textColor="@color/res_cor11"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+                
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bind_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="13dp"
+                android:textColor="#ff516491"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/layout_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_bind_list_bg"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/nick_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/title_my_nick_name"
+                    android:textColor="@color/res_cor2"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txt_nick_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#ff516491"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/icon_arrow" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_red2_selector"
+                android:padding="2dp"
+                android:text="@string/title_unbind_phone"
+                android:textColor="@color/res_cor1"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dark_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_east"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rank_type_bg_down"
+            android:shadowColor="@color/res_cor2"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="0"
+            android:text="@string/STR_EAST"
+            android:textColor="@color/res_cor1"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_west"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rank_type_selector"
+            android:shadowColor="@color/res_cor2"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="0"
+            android:text="@string/STR_WEST"
+            android:textColor="@color/txt_status"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <include layout="@layout/item_standings_header" />
+
+    <ListView
+        android:id="@+id/list_standings"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:listSelector="@color/transform"
+        android:scrollbars="none" />
+
+</LinearLayout>

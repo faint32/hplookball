@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar"
+        android:layout_width="fill_parent" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/title_input_verfy" />
+
+        <Button
+            android:id="@+id/btn_go_bind"
+            style="@style/btn_right"
+            android:text="@string/title_verfy"
+            android:textColor="@color/res_cor1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@color/setting_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/title_send_msg"
+            android:textColor="#ff516491"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txt_send_verfy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ff516491"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1.0" >
+
+                <EditText
+                    android:id="@+id/edt_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/money_box"
+                    android:hint="@string/hint_verfy"
+                    android:inputType="phone"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/res_cor2"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_bind_err"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff516491" />
+
+        <Button
+            android:id="@+id/btn_get_verify"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_msg_bg"
+            android:padding="2dp"
+            android:text="@string/get_verfy"
+            android:textColor="@color/res_cor1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

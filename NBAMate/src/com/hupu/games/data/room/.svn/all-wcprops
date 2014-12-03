@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/WL-APP-Games_Android/!svn/ver/1627/trunk/src/com/hupu/games/data/room
+END
+GiftEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1589/trunk/src/com/hupu/games/data/room/GiftEntity.java
+END
+RoomListEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/1549/trunk/src/com/hupu/games/data/room/RoomListEntity.java
+END
+GiftReqDataEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1479/trunk/src/com/hupu/games/data/room/GiftReqDataEntity.java
+END
+RoomEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1472/trunk/src/com/hupu/games/data/room/RoomEntity.java
+END
+GiftRespResultEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/1493/trunk/src/com/hupu/games/data/room/GiftRespResultEntity.java
+END
+RoomListResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1472/trunk/src/com/hupu/games/data/room/RoomListResp.java
+END

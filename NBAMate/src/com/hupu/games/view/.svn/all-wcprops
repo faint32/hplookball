@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/WL-APP-Games_Android/!svn/ver/1660/trunk/src/com/hupu/games/view
+END
+AutoTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/1660/trunk/src/com/hupu/games/view/AutoTextView.java
+END
+GIFView.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/GIFView.java
+END
+HupuSingleLineTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1080/trunk/src/com/hupu/games/view/HupuSingleLineTextView.java
+END
+HupuViewPager.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/54/trunk/src/com/hupu/games/view/HupuViewPager.java
+END
+HupuSectionedBaseAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WL-APP-Games_Android/!svn/ver/835/trunk/src/com/hupu/games/view/HupuSectionedBaseAdapter.java
+END
+XListViewHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1414/trunk/src/com/hupu/games/view/XListViewHeader.java
+END
+HupuWebView.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/HupuWebView.java
+END
+CustomScrollView.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/739/trunk/src/com/hupu/games/view/CustomScrollView.java
+END
+MyGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/575/trunk/src/com/hupu/games/view/MyGridView.java
+END
+SimpleWebView.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/SimpleWebView.java
+END
+PinnedHeaderListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/877/trunk/src/com/hupu/games/view/PinnedHeaderListView.java
+END
+PinnedXListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/PinnedXListView.java
+END
+InterceptScrollContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/InterceptScrollContainer.java
+END
+HupuGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WL-APP-Games_Android/!svn/ver/1305/trunk/src/com/hupu/games/view/HupuGridView.java
+END
+RefreshListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/RefreshListView.java
+END
+Rotate3d.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WL-APP-Games_Android/!svn/ver/273/trunk/src/com/hupu/games/view/Rotate3d.java
+END
+HScrollView.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/HScrollView.java
+END
+XListViewFooter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1414/trunk/src/com/hupu/games/view/XListViewFooter.java
+END
+HupuPinnedHeaderListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1350/trunk/src/com/hupu/games/view/HupuPinnedHeaderListView.java
+END
+XListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/XListView.java
+END
+PinnedHeaderXListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/PinnedHeaderXListView.java
+END
+DraggableListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/DraggableListView.java
+END
+HupuPinnedXListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/view/HupuPinnedXListView.java
+END

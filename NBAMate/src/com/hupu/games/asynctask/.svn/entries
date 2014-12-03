@@ -1,0 +1,52 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/src/com/hupu/games/asynctask
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-10-30T07:07:27.399674Z
+1416
+dongshuming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+DBTaskCallback.java
+file
+
+
+
+
+2014-12-02T10:34:52.000000Z
+9057ad73b08ceb7ba95f95a88c59c579
+2014-10-30T07:07:27.399674Z
+1416
+dongshuming
+
+FollowTask.java
+file
+
+
+
+
+2014-12-02T10:34:52.000000Z
+dd5a92ac55ceb6c92ee51214430bd1c6
+2014-10-30T07:07:27.399674Z
+1416
+dongshuming
+

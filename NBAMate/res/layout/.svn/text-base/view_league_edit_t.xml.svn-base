@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_order_outer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:id="@+id/layout_shuddle_action"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_below="@id/layout_title_bar"
+	    android:background="@color/bg_home_tab_order"
+        >
+		<LinearLayout 
+		    android:id="@+id/layout_shuddle_view"
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+		    >
+		    <com.hupu.games.view.dragGridView.DragGridView
+		        android:id="@+id/dynamic_grid"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="17dp"
+		        android:numColumns="3" />
+		
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="30sp"
+		        android:layout_gravity="center_horizontal"
+		        android:layout_marginTop="17dp"
+		        android:background="@color/res_cor4"
+		        android:gravity="center"
+		        android:text="@string/txt_home_tab_order_tips"
+		        android:textColor="@color/res_cor8"
+		        android:textSize="15sp" />
+		
+		    <LinearLayout
+		         android:id="@+id/layout_btn_cancel"
+		        android:layout_width="fill_parent"
+		        android:layout_height="35dp" 
+		        android:gravity="center">
+		
+		        <ImageView
+		           
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/btn_colum_order_arrow" />
+		    </LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_title"
+            android:text="@string/title_home_tab_order" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/btn_right"
+            android:src="@drawable/btn_order_selector"
+            android:text="@string/btn_order_finish" />
+    </RelativeLayout>
+
+</RelativeLayout>

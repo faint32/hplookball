@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/news
+END
+NewsEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/news/NewsEntity.java
+END
+NewsResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WL-APP-Games_Android/!svn/ver/1164/trunk/src/com/hupu/games/data/news/NewsResp.java
+END
+NewsLightEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/news/NewsLightEntity.java
+END
+NewsDetailEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/news/NewsDetailEntity.java
+END

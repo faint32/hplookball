@@ -1,0 +1,76 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/res
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-12-02T06:24:16.797334Z
+1660
+songzhenhua
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+anim
+dir
+
+color
+dir
+
+drawable
+dir
+
+drawable-800x480
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+
+layout-h500dp-normal
+dir
+
+layout-sw550dp-large
+dir
+
+layout-v9
+dir
+
+layout-xhdpi
+dir
+
+values
+dir
+
+values-ja
+dir
+
+values-zh
+dir
+

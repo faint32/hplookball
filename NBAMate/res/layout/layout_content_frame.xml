@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/static_blank"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+    android:id="@+id/mian_ui_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/static_blank"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_title_bar" >
+
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <ImageButton
+            android:id="@+id/btn_menu"
+            style="@style/btn_left_menu" />
+        
+        <ImageView 
+            android:id="@+id/user_red_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_home_red_point"
+            android:layout_alignRight="@+id/btn_menu"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            />
+        </RelativeLayout>
+        
+<!--         <ImageView 
+            android:id="@+id/shadow_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_shadow_left"/> -->
+        
+
+        <com.viewpagerindicator.TabPageIndicator
+            android:id="@+id/page_indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView 
+            android:id="@+id/shadow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_shadow_right"/>
+        
+        <ImageButton
+            android:id="@+id/btn_edit"
+            style="@style/btn_home_right"
+            android:background="@drawable/btn_colum_order_selector" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/bg_bottom"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/btn_game"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@color/transform"
+            android:src="@drawable/btn_nba_game_up" />
+
+        <ImageButton
+            android:id="@+id/btn_news"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@color/transform"
+            android:src="@drawable/btn_news_up" />
+
+        <ImageButton
+            android:id="@+id/btn_video"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@color/transform"
+            android:src="@drawable/btn_video" />
+
+        <ImageButton
+            android:id="@+id/btn_standings"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@color/transform"
+            android:src="@drawable/btn_standings" />
+
+        <ImageButton
+            android:id="@+id/btn_data"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@color/transform"
+            android:src="@drawable/btn_data_up"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/action_bar_shuttle_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        />
+</AbsoluteLayout>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_menu_left"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        style="@style/bg_menu_title_bar"
+        android:layout_height="49dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="9dp"
+            android:src="@drawable/icon_menu_logo" />
+
+        <Button
+            android:id="@+id/btn_setup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_setup_selector"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/title_divider"
+        android:layout_below="@+id/layout_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/left_menu_divider" />
+
+    <LinearLayout
+        android:id="@+id/menu_user_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_divider"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/menu_name_info"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_menu_left_selector"
+            android:paddingRight="8dp" >
+
+            <ImageView
+                android:id="@+id/user_icon_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icon_men" />
+
+            <TextView
+                android:id="@+id/menu_nick_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/user_icon_img"
+                android:singleLine="true"
+                android:text="@string/my_userinfo"
+                android:textColor="@color/res_cor4"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/account_red_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@+id/menu_nick_name"
+                android:background="@drawable/icon_red_point"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="65dp"
+            android:background="@color/left_menu_divider" />
+
+        <RelativeLayout
+            android:id="@+id/menu_my_caipiao"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+             android:background="@drawable/bg_menu_left_selector"
+            android:paddingRight="8dp" >
+
+            <ImageView
+                android:id="@+id/caipiao_icon_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icon_lottery" />
+
+            <TextView
+                android:id="@+id/caipiao_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/caipiao_icon_img"
+                android:text="@string/menu_caipiao_txt"
+                android:textColor="@color/res_cor4"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/caipiao_red_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@+id/caipiao_txt"
+                android:background="@drawable/icon_red_point"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/wallet_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/caipiao_red_point"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/res_cor10"
+                android:textSize="14sp" />
+        </RelativeLayout>
+              <View
+                  android:id="@+id/menu_my_caipiao_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="65dp"
+            android:background="@color/left_menu_divider" />
+        <RelativeLayout
+            android:id="@+id/menu_my_hupucoin_info"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+             android:background="@drawable/bg_menu_left_selector"
+            android:paddingRight="8dp" >
+
+            <ImageView
+                android:id="@+id/hupucoin_icon_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/hupuicon_coin" />
+
+            <TextView
+                android:id="@+id/my_hupucoin_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/hupucoin_icon_img"
+                android:text="@string/menu_hupucoin_txt"
+                android:textColor="@color/res_cor4"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/hupucoin_red_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@+id/my_hupucoin_txt"
+                android:background="@drawable/icon_red_point"
+                android:visibility="gone" />
+
+            <!--
+                 <ImageView
+                android:id="@+id/icon_menu_gold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_toLeftOf="@+id/gold_num"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_gold" />
+            -->
+
+            <TextView
+                android:id="@+id/hupucoin_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/res_cor10"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/menu_my_hupucoin_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="65dp"
+            android:background="@color/left_menu_divider" />
+
+        <RelativeLayout
+            android:id="@+id/my_coin_info"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+             android:background="@drawable/bg_menu_left_selector"
+            android:paddingRight="8dp" >
+
+            <ImageView
+                android:id="@+id/coin_icon_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icon_coin" />
+
+            <TextView
+                android:id="@+id/my_coin_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/coin_icon_img"
+                android:text="@string/menu_coin_txt"
+                android:textColor="@color/res_cor4"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/coin_red_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@+id/my_coin_txt"
+                android:background="@drawable/icon_red_point"
+                android:visibility="gone" />
+
+            <!--
+                 <ImageView
+                android:id="@+id/icon_menu_gold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_toLeftOf="@+id/gold_num"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_gold" />
+            -->
+
+            <TextView
+                android:id="@+id/gold_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/res_cor10"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/my_coin_info_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="65dp"
+            android:background="@color/left_menu_divider" />
+
+        <RelativeLayout
+            android:id="@+id/menu_rank_info"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+             android:background="@drawable/bg_menu_left_selector"
+            android:paddingRight="8dp" >
+
+            <ImageView
+                android:id="@+id/rank_icon_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icon_rank" />
+
+            <TextView
+                android:id="@+id/rank_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/rank_icon_img"
+                android:text="@string/title_all_guess_rank"
+                android:textColor="@color/res_cor4"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/rank_red_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@+id/rank_txt"
+                android:background="@drawable/icon_red_point"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/rank_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/rank_red_point"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/res_cor4"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="65dp"
+            android:background="@color/left_menu_divider" />
+        <!--
+        <RelativeLayout
+            android:id="@+id/menu_recommend"
+            android:layout_width="fill_parent"
+           android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="8dp" >
+
+            <ImageView
+                android:id="@+id/recommend_icon_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_recommend" />
+
+            <TextView
+                android:id="@+id/recommend_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/menu_recommend_txt"
+                android:textColor="@color/res_cor4"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/recommend_icon_img"
+                android:textSize="17sp" />
+            
+            <ImageView 
+                android:id="@+id/recommend_red_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_red_point"
+                android:layout_toRightOf="@+id/recommend_txt"
+                android:layout_centerVertical="true"
+                android:layout_margin="6dp"
+                android:visibility="gone"
+                />
+            
+            
+        </RelativeLayout>
+        
+
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+             android:layout_marginLeft="65dp"
+            android:background="@color/left_menu_divider"
+            />
+        -->
+
+        <RelativeLayout
+            android:id="@+id/menu_set"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+             android:background="@drawable/bg_menu_left_selector"
+            android:paddingRight="8dp" >
+
+            <ImageView
+                android:id="@+id/set_icon_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icon_set" />
+
+            <TextView
+                android:id="@+id/set_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/set_icon_img"
+                android:text="@string/title_setup"
+                android:textColor="@color/res_cor4"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/set_red_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@+id/set_txt"
+                android:background="@drawable/icon_red_point"
+                android:visibility="gone" />
+
+            <!--
+                 <TextView
+                android:id="@+id/rank_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:textColor="@color/res_cor4"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/rank_txt"
+                android:singleLine="true"
+                android:textSize="15sp" />
+            -->
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="65dp"
+            android:background="@color/left_menu_divider" />
+
+        <!--
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_league_title"
+            android:gravity="center_vertical" >
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/title_league"
+                android:textSize="15sp"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp" >
+
+                <Button
+                    android:id="@+id/btn_manage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_manage_selector" />
+
+                <ImageView
+                    android:id="@+id/have_new_league"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/btn_manage"
+                    android:layout_marginRight="-5dp"
+                    android:src="@drawable/icon_menu_new"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:text="@string/done"
+                android:textColor="@color/res_cor4"
+                android:padding="5dp"
+                android:background="@drawable/btn_done_selector" 
+                android:visibility="gone"/>
+        </RelativeLayout>
+        -->
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu_shadow" />
+
+</RelativeLayout>

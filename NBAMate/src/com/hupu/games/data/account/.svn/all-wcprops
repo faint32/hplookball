@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/account
+END
+TaskEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WL-APP-Games_Android/!svn/ver/1167/trunk/src/com/hupu/games/data/account/TaskEntity.java
+END
+UserBetInfoReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/account/UserBetInfoReq.java
+END
+BindInfoReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/account/BindInfoReq.java
+END
+PhoneBindReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/account/PhoneBindReq.java
+END
+PhoneVerfyCodeReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/account/PhoneVerfyCodeReq.java
+END
+QqLoginEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/account/QqLoginEntity.java
+END
+UserWalletResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/data/account/UserWalletResp.java
+END

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="54dp"
+    android:background="@drawable/bg_bottom"
+    android:gravity="center_vertical"
+    android:visibility="gone"
+    >
+
+    <ImageButton
+        android:id="@+id/btn_first"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:background="@color/transform"
+        android:src="@drawable/btn_report" 
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/btn_live"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:background="@color/transform"
+        android:src="@drawable/btn_live_up"/>
+   
+   <ImageButton
+        android:id="@+id/btn_outs"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:background="@color/transform"
+        android:src="@drawable/btn_outs_up" />
+       
+     <ImageButton
+        android:id="@+id/btn_lineup"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:background="@color/transform"
+        android:src="@drawable/btn_lineup_up" />
+     
+ 
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/btn_quiz"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transform"
+            android:src="@drawable/btn_tag_guess_up" />
+
+        <ImageView
+            android:id="@+id/icon_red_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="3dp"
+            android:visibility="invisible"
+            android:background="@drawable/icon_red_point" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btn_chat"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:background="@color/transform"
+        android:src="@drawable/btn_chat_up" />
+
+</LinearLayout>

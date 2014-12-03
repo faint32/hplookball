@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp" 
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt_rank"
+        style="@style/txt_standings_1"
+        android:layout_weight="1"
+        android:text="@string/football_rank" />
+
+    <TextView
+        android:id="@+id/txt_player"
+        style="@style/txt_standings_1"
+        android:layout_weight="1"
+        android:text="@string/football_player" />
+
+    <TextView
+        android:id="@+id/txt_team"
+        style="@style/txt_standings_1"
+        android:layout_weight="1"
+        android:text="@string/football_team" />
+
+    
+    
+     <TextView
+        android:id="@+id/txt_scored"
+        style="@style/txt_standings_1"
+        android:layout_weight="1"
+        android:text="@string/football_scored" />
+    
+
+</LinearLayout>

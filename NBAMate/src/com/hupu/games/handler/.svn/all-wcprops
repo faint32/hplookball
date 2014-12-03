@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/handler
+END
+IWebViewClientEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/handler/IWebViewClientEvent.java
+END
+IWebViewLongClickEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/handler/IWebViewLongClickEvent.java
+END
+ISocketCallBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/760/trunk/src/com/hupu/games/handler/ISocketCallBack.java
+END

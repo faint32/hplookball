@@ -1,0 +1,54 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/bin/res/drawable-ldpi
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-01-16T09:52:15.666984Z
+790
+panyongjun
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+icon_launcher.png
+file
+
+
+
+
+2014-12-02T10:36:25.000000Z
+865fd9ff59ab0c871523dd6198a7f1d7
+2014-01-16T09:52:15.666984Z
+790
+panyongjun
+has-props
+
+icon_notify.png
+file
+
+
+
+
+2014-12-02T10:36:25.000000Z
+2c83657d91f47c689df418ce1ee7c61b
+2014-01-16T09:52:15.666984Z
+790
+panyongjun
+has-props
+

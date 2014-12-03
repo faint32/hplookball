@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/WL-APP-Games_Android/!svn/ver/1661/trunk/src/com/hupu/games/activity
+END
+BaseGameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1617/trunk/src/com/hupu/games/activity/BaseGameActivity.java
+END
+NBATeamActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/NBATeamActivity.java
+END
+FootballGameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1661/trunk/src/com/hupu/games/activity/FootballGameActivity.java
+END
+UserRateActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/UserRateActivity.java
+END
+ShowImgActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/1107/trunk/src/com/hupu/games/activity/ShowImgActivity.java
+END
+CoinInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/CoinInfoActivity.java
+END
+AboutActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/AboutActivity.java
+END
+UserInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1452/trunk/src/com/hupu/games/activity/UserInfoActivity.java
+END
+NBAPlayerInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/NBAPlayerInfoActivity.java
+END
+DiscoveryWebViewActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/DiscoveryWebViewActivity.java
+END
+HupuVideoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/HupuVideoActivity.java
+END
+BasketballActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1661/trunk/src/com/hupu/games/activity/BasketballActivity.java
+END
+MyCaipiaoListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/MyCaipiaoListActivity.java
+END
+ContactsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/ContactsActivity.java
+END
+UserRechargeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/UserRechargeActivity.java
+END
+HupuLaunchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/HupuLaunchActivity.java
+END
+HupuHomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1660/trunk/src/com/hupu/games/activity/HupuHomeActivity.java
+END
+HupuBaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1626/trunk/src/com/hupu/games/activity/HupuBaseActivity.java
+END
+FollowTeamActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/FollowTeamActivity.java
+END
+SoccerEventsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1514/trunk/src/com/hupu/games/activity/SoccerEventsActivity.java
+END
+ChatInputActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WL-APP-Games_Android/!svn/ver/1604/trunk/src/com/hupu/games/activity/ChatInputActivity.java
+END
+UserGoldInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1452/trunk/src/com/hupu/games/activity/UserGoldInfoActivity.java
+END
+NickNameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/NickNameActivity.java
+END
+GuessRankActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WL-APP-Games_Android/!svn/ver/1593/trunk/src/com/hupu/games/activity/GuessRankActivity.java
+END
+NBAGameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/1661/trunk/src/com/hupu/games/activity/NBAGameActivity.java
+END
+SetupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1425/trunk/src/com/hupu/games/activity/SetupActivity.java
+END
+FootballCoachInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/FootballCoachInfoActivity.java
+END
+ChooseTeamsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/ChooseTeamsActivity.java
+END
+PlayersRatingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/PlayersRatingActivity.java
+END
+SoccerTeamActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/SoccerTeamActivity.java
+END
+QuizListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1552/trunk/src/com/hupu/games/activity/QuizListActivity.java
+END
+LaunchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WL-APP-Games_Android/!svn/ver/1631/trunk/src/com/hupu/games/activity/LaunchActivity.java
+END
+FootballPlayerInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/FootballPlayerInfoActivity.java
+END
+UserGoldActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/UserGoldActivity.java
+END
+MyQuizListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/MyQuizListActivity.java
+END
+UserWalletActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/UserWalletActivity.java
+END
+ExchangePrizeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/1418/trunk/src/com/hupu/games/activity/ExchangePrizeActivity.java
+END
+FAQActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WL-APP-Games_Android/!svn/ver/1409/trunk/src/com/hupu/games/activity/FAQActivity.java
+END
+AdWebviewActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/AdWebviewActivity.java
+END
+NewsDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/NewsDetailActivity.java
+END
+BaseGameLiftActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1660/trunk/src/com/hupu/games/activity/BaseGameLiftActivity.java
+END
+ReplyListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/ReplyListActivity.java
+END
+TaskActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WL-APP-Games_Android/!svn/ver/1409/trunk/src/com/hupu/games/activity/TaskActivity.java
+END
+SingerRankingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/SingerRankingActivity.java
+END
+WebViewActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WL-APP-Games_Android/!svn/ver/1594/trunk/src/com/hupu/games/activity/WebViewActivity.java
+END
+ExchangeListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/ExchangeListActivity.java
+END
+PlayerRatingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/PlayerRatingActivity.java
+END
+MyPrizeListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WL-APP-Games_Android/!svn/ver/1409/trunk/src/com/hupu/games/activity/MyPrizeListActivity.java
+END
+SoccerLiveActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/games/activity/SoccerLiveActivity.java
+END

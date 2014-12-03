@@ -1,0 +1,70 @@
+8
+
+dir
+1662
+http://192.168.8.245/svn/WL-APP-Games_Android/trunk/bin
+http://192.168.8.245/svn/WL-APP-Games_Android
+
+
+
+2014-11-12T02:31:02.922739Z
+1478
+songzhenhua
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da4d4037-4bd0-4935-bf25-db2faaff3bcf
+
+AndroidManifest.xml.svntmp
+file
+
+
+
+
+2014-12-02T10:36:25.000000Z
+5b57702c1a40eb9be168f4d4b5643020
+2014-01-16T09:52:15.666984Z
+790
+panyongjun
+
+R.txt.svntmp
+file
+
+
+
+
+2014-12-02T10:36:05.000000Z
+222dd358ce531b235069d7eeba5d3826
+2014-01-16T09:52:15.666984Z
+790
+panyongjun
+
+dexedLibs
+dir
+
+jarlist.cache
+file
+
+
+
+
+2014-12-02T10:36:25.000000Z
+1fcbeab1f55af0bf285d2ceafba16ae7
+2014-11-12T02:31:02.922739Z
+1478
+songzhenhua
+
+res
+dir
+

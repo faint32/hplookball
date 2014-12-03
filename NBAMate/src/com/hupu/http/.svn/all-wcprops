@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/http
+END
+HttpRequestParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/http/HttpRequestParams.java
+END
+HupuHttpHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/http/HupuHttpHandler.java
+END
+BaseHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/http/BaseHttpResponseHandler.java
+END
+BaseHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/http/BaseHttpClient.java
+END
+HupuHttpException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WL-APP-Games_Android/!svn/ver/1416/trunk/src/com/hupu/http/HupuHttpException.java
+END
